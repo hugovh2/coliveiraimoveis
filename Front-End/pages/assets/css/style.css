@@ -1,0 +1,50 @@
+/* Navbar*/
+nav {
+    height: 105px;
+    line-height: 105px; 
+}
+
+nav ul a{
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 15px;  
+}
+
+.nav-wrapper img{
+  width: 310px;
+  height: 85px;
+
+}
+
+nav .btn {
+    color: #fff;
+    background-color: #143373;
+    border-radius: 12px;
+}
+
+.btn:hover{
+    opacity: 1;
+    background-color: #010D26;
+}
+
+#banner{
+    margin-top: 35px;
+    background-image: url("../images/img banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 450px;
+}
+
+#banner p,h2{
+    font-weight: bold;
+}
+
+#banner p{
+    font-size: 16px;
+}
+
+
+
+
