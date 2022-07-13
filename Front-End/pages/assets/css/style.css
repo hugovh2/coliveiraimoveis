@@ -1,19 +1,19 @@
 /* Navbar*/
 nav {
     height: 105px;
-    line-height: 105px; 
+    line-height: 105px;
 }
 
-nav ul a{
+nav ul a {
     color: #000000;
     font-size: 18px;
     font-weight: bold;
-    margin-left: 15px;  
+    margin-left: 15px;
 }
 
-.nav-wrapper img{
-  width: 310px;
-  height: 85px;
+.nav-wrapper img {
+    width: 310px;
+    height: 85px;
 
 }
 
@@ -23,13 +23,13 @@ nav .btn {
     border-radius: 12px;
 }
 
-.btn:hover{
+.btn:hover {
     opacity: 1;
     background-color: #010D26;
 }
 
 /* Banner */
-#banner{
+#banner {
     margin-top: 35px;
     background-image: url("../images/img banner.jpg");
     background-repeat: no-repeat;
@@ -38,11 +38,12 @@ nav .btn {
     height: 450px;
 }
 
-#banner p,h2{
+#banner p,
+h2 {
     font-weight: bold;
 }
 
-#banner p{
+#banner p {
     font-size: 16px;
 }
 
@@ -54,47 +55,237 @@ nav .btn {
     justify-content: center;
     justify-items: center;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    
     grid-gap: 30px;
     border-color: #000000;
-    
-  }
-  .grid-1 div{
+
+}
+
+.grid-1 div {
     width: 240px;
     height: 260px;
     border-radius: 12px;
-  }
-
-  .col1, .col2, .col3,.col4{
-    background-size: cover;  
 }
 
-.col1{background-image: url("https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80")}
+.col1,
+.col2,
+.col3,
+.col4 {
+    background-size: cover;
+}
 
-.col2{background-image: url("https://images.unsplash.com/photo-1575517111478-7f6afd0973db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60")}
+.col1 {
+    background-image: url("https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80")
+}
 
-.col3{background-image: url("https://images.unsplash.com/photo-1513584684374-8bab748fbf90?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60")}
+.col2 {
+    background-image: url("https://images.unsplash.com/photo-1575517111478-7f6afd0973db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60")
+}
 
-.col4{background-image:  url("https://images.unsplash.com/photo-1503174971373-b1f69850bded?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fGhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60")}
+.col3 {
+    background-image: url("https://images.unsplash.com/photo-1513584684374-8bab748fbf90?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60")
+}
+
+.col4 {
+    background-image: url("https://images.unsplash.com/photo-1503174971373-b1f69850bded?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fGhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60")
+}
 
 /*Nossa Proposta*/
-.teste{
+.teste {
     margin-top: 120px;
-   
+
 }
 
-#teste1{
+/* .card {
+  
+} */
+
+#teste1 {
     background-color: blue;
     margin: 0 auto;
-    
-    
+
+
 }
-#teste2{
+
+#teste2 {
     background-color: yellow;
     margin: 0 auto;
-    
-    
+
+
 }
-.teste #teste1, #teste2 {
+
+.teste #teste1,
+#teste2 {
     padding: 30px;
 }
+
+.card-body {
+    position: relative;
+    margin-top: 200px;
+    box-sizing: border-box;
+    width: 490px;
+    height: 600px;
+    justify-content: center;
+    justify-items: center;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+form .btn {
+    margin-top: 120px;
+    width: 300px;
+    position: absolute;
+    width: 460px;
+    height: 45.23px;
+    background: linear-gradient(0deg, rgba(18, 60, 115, 0.06), rgba(18, 60, 115, 0.06)), #22D829;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 1px;
+}
+
+.registration-form h3 {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 25px;    
+    line-height: 45px;
+    text-align: center;
+    color: #020202;
+}
+
+.registration-form p {
+    height: 64.33px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #434346;
+}
+
+card {
+    box-sizing: border-box;
+    position: absolute;
+    width: 492px;
+    height: 835px;
+    justify-content: center;
+    justify-items: center;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.card img {
+    position: absolute;
+    width: 68px;
+    height: 68px;
+}
+
+.registration-form {
+    padding: 50px 0;
+}
+
+.registration-form form {
+    background-color: white;
+    width: 492px;
+    height: 835px;
+    margin: auto;
+    padding: 50px 70px;
+    box-sizing: border-box;
+    border: 10px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.registration-form .form-icon {
+    text-align: center;
+    background-color: #123C73;
+    border-radius: 50%;
+    font-size: 40px;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 50px;
+    line-height: 100px;
+}
+
+.registration-form .item {
+    border-radius: 20px;
+    margin-bottom: 25px;
+    padding: 10px 20px;
+}
+
+#registration-form h3 {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 45px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.registration-form .create-account {
+    width: 370px;
+    height: 45.23px;
+    background: linear-gradient(0deg, rgba(18, 60, 115, 0.06), rgba(18, 60, 115, 0.06)), #123C73;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 1px;
+}
+
+.registration-form .social-media {
+    width: 492px;
+    background-color: rgba(0, 0, 0, 0.25);
+    margin: auto;
+    padding: 35px 0;
+    text-align: center;
+    color: #9fadca;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.registration-form .social-icons {
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+.registration-form .social-icons a {
+    font-size: 23px;
+    margin: 0 3px;
+    color: #5691ff;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 45px;
+    display: inline-block;
+    height: 45px;
+    text-align: center;
+    background-color: white;
+    line-height: 45px;
+}
+
+.registration-form .social-icons a:hover {
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+@media (max-width: 576px) {
+    .registration-form form {
+        padding: 50px 20px;
+    }
+
+    .registration-form .form-icon {
+        width: 70px;
+        height: 70px;
+        font-size: 30px;
+        line-height: 70px;
+    }
+}
+
+/* #mapa {
+    height: 400px;
+    width: 400px;
+} */

@@ -6,14 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="../assets/css/style.css">
+    <!-- fim CSS -->
+    <!-- ionicons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css"
+        rel="stylesheet">
+    <!-- fim ionicons -->
 
     <!-- JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+    <!-- fim JavaScript -->
 
     <!-- Title -->
     <title>Home</title>
+    <!--Bottstrap -->
+
 </head>
 
 <body>
@@ -38,8 +52,8 @@
                 <h2 class="white-text">Título</h2>
                 <p class="white-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br>
                     Velit officia consequat duis enim velit mollit.<br>
-                    Exercitation veniam consequat sunt nostrud amet.</p>
-
+                    Exercitation veniam consequat sunt nostrud amet.
+                </p>
             </div>
         </div>
     </div>
@@ -51,6 +65,83 @@
         <div class="col3"></div>
         <div class="col4"></div>
     </section>
+
+    <!-- <div class="card-body">
+        <div class="card-body">
+            <h1>Formulário de Contato</h1>
+            <form action="https://formsubmit.co/your@email.com" method="POST" class="form">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" required />
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" required />
+                <label for="message">Mensagem</label>
+                <textarea name="message" id="message" required></textarea>
+                <input type="hidden" name="_captcha" value="false" />
+                <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html" />
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div> -->
+    <!-- <div class="row">
+        <div class="card">
+            <div class="card-body">
+                <div class="col-md-12" id="tos">
+                    <form>
+                        <img src="../assets/images/apoio-suporte.jpg" class="brand-logo">
+                        <h3 class="text">Envie uma mensagem para nós</h3><br><br>
+                        <p>Preencha as informações básicas abaixo para que possamos entrar em contato com a
+                            melhor
+                            solução para o seu sonho!
+                        </p><br><br>
+                        <div class="form-group col-md-12"><label>Nome</label> <input type="text" name="nome"
+                                class="form-control"></div>
+
+                        <div class="form-group col-md-12"><label>E-mail</label> <input type="text" name="nome"
+                                class="form-control"></div>
+                        <div class="form-group col-md-12"><label>Telefone</label> <input type="text" name="nome"
+                                class="form-control"></div>
+                        <button type="button" class="btn btn-primary btn-block mb-4">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div class="registration-form">
+        <form>
+            <div class="form-icon">
+                <span><i class="icon icon-user"></i></span>
+            </div>
+            <h3 class="text-center">Envie uma mensagem para nós</h3>
+            <p>Preencha as informações básicas abaixo para que possamos entrar em contato com a melhor
+                solução para o seu sonho!
+            </p>
+            <div class="form-group">
+                <input type="text" class="form-control item" id="username" placeholder="Usuario">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control item" id="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control item" id="phone-number" placeholder="Telefone">
+            </div>
+            <div class="form-group">
+                <button type="button" class="btn btn-block create-account">Enviar</button>
+            </div>
+        </form>
+        <!-- <div class="social-media">
+            <h5>Redes sociais</h5>
+            <div class="social-icons">
+                <a href="www.facebook.com.br"><i class="icon-social-facebook" title="Facebook"></i></a>
+                <a href="https://www.google.com/"><i class="icon-social-google" title="Google"></i></a>
+                <a href="#"><i class="icon-social-twitter" title="Twitter"></i></a>
+            </div>
+        </div> -->
+    </div>
+    <div id="mapa">
+        <!-- <img src="http://maps.googleapis.com/maps/api/staticmap?center=-22.912869,-43.2289638
+        &zoom=15&markers=color:red|-22.909410,-43.2329548&size=250x250"> -->
+    </div>
+ 
 
     <!--Nossa Proposta-->
     <div class="teste">
@@ -64,6 +155,66 @@
             <p>teste</p>
         </div>
     </div>
+
 </body>
 
+<script>
+    $(document).ready(function () {
+        $('#phone-number').mask("(99) 99999-9999");
+    })
+    function inicializar() {
+        var coordenadas = { lat: -22.912869, lng: -43.228963 };
+
+        var mapa = new google.maps.Map(document.getElementById('mapa'), {
+            zoom: 15,
+            center: coordenadas
+        });
+
+        var marker = new google.maps.Marker({
+            position: coordenadas,
+            map: mapa,
+            title: 'Meu marcador'
+        });
+    }
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=SUA_CHAVE_API_DO_GOOGLE&callback=inicializar">
+</script>
+
 </html>
+   <!-- Inspiração figma -->
+    <!-- <div class="row">
+        <div class="col s4">
+            <div class="row">
+                <div class="col s12" id="tos">
+                    <form class="card" action="post" id="card-form">
+                        <img src="../assets/images/apoio-suporte.jpg" class="brand-logo">
+                        <h3 class="text-center">Envie uma mensagem para nós</h3>
+                        <p>Preencha as informações básicas abaixo para que possamos entrar em contato com a melhor
+                            solução para o seu sonho!
+                        </p>
+                        <br><br><br><br>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="nome" type="text" class="text-darken-4">
+                                <label for="email">Nome</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="input-field1" type="email" class="validate">
+                                <label for="email">Email</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="telefone" type="text" class="validate">
+                                <label for="telefone">Telefone</label>
+                            </div>
+                        </div>
+                        <button class="waves-effect waves-light btn">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- fim figma code -->
