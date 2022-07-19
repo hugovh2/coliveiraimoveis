@@ -1,32 +1,31 @@
 /* Navbar*/
-nav {
-    height: 105px;
-    line-height: 105px;
-}
-
-nav ul a {
-    color: #000000;
-    font-size: 18px;
+.navbar-custom{
+    height:180px;
+    margin-bottom: 30px;
+    text-align: top;
+   
+  }
+  
+  
+  
+  #nav-container{
+   margin: 0 auto;
+  
+  }
+  #nav-container a:hover{
+   color: #010D26;
+  
+  }
+  
+  #nav-layout{
+    margin-right:20px;
+    font-size: 21px;
     font-weight: bold;
-    margin-left: 15px;
-}
-
-.nav-wrapper img {
-    width: 310px;
-    height: 85px;
-
-}
-
-nav .btn {
-    color: #fff;
-    background-color: #143373;
-    border-radius: 12px;
-}
-
-.btn:hover {
-    opacity: 1;
-    background-color: #010D26;
-}
+  }
+  
+  #nav-layout li{
+    margin-right:20px;
+  }
 
 /* Banner */
 #banner {
@@ -37,6 +36,8 @@ nav .btn {
     background-position: center center;
     height: 450px;
 }
+
+/* form */
 #fundoForm {
     margin-top: 200px;
     background-image: url("../images/img fundoazul.jpg");
@@ -562,3 +563,42 @@ line-height: 44px;
     text-decoration: none;
     color: #555;
 }
+
+/* Sobre */
+
+#row1 div{
+
+
+    justify-content: center;
+    justify-items: center;
+    color: #fff;
+    margin-top: 30px;
+    height: 180px;
+    width: 20%;
+    background-color: #123C73;
+    border-radius: 12px;
+    text-align: center;
+  }
+  
+  #row1  h2{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 26px;
+    font-weight: bold;
+  }
+  #row1  img{
+   margin: 0 auto;
+   
+  }
+  
+  #row2{
+    margin-top: 180px;
+    margin-bottom: 80px;
+  
+  }
+  #row2 h2{
+  
+    font-weight: bold;
+    text-align: center;
+  
+  }
