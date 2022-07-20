@@ -1,4 +1,8 @@
 /* Navbar*/
+*{
+    margin: 0;
+    padding: 0;
+}
 .navbar-custom{
     height:180px;
     margin-bottom: 30px;
@@ -6,7 +10,9 @@
    
   }
   
-  
+  body{
+    width: 100vw;
+  }
   
   #nav-container{
    margin: 0 auto;
@@ -54,6 +60,8 @@
     background-size: cover;
     background-position: center center;
     height: 800.9px;
+    width: 100vw
+    
 }
 /* #fundoazul {
     margin-top: 35px;
@@ -158,16 +166,22 @@ h2 {
     border-radius: 10px;
 }
 
-form .btn {
+ #button-form {
     margin-top: 120px;
-    width: 300px;
-    position: absolute;
-    width: 460px;
+    width: 360px;
+    text-align: center;
     height: 45.23px;
     background: linear-gradient(0deg, rgba(18, 60, 115, 0.06), rgba(18, 60, 115, 0.06)), #22D829;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     padding: 1px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+#button-form:hover{
+    opacity: 0.6;
+    color:#000000 ;
 }
 
 .registration-form h3 {
@@ -394,6 +408,7 @@ line-height: 44px;
     padding:50px 0;
     color:#f0f9ff;
     background-color:#010D26;
+    width: 100vw;
   }
   
   .footer-dark h3 {
@@ -564,11 +579,131 @@ line-height: 44px;
     color: #555;
 }
 
+#row-home {
+    margin-top: 180px;
+    margin-bottom: 60px;
+
+}
+
+#row-home div{
+    
+    margin: 30px;
+    justify-content: center;
+    justify-items: center;
+    color: #000;
+    height: auto;
+    width: 25%;
+    background-color: #fff;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.container-cards{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 90%!important;
+    margin-top: 10px!important;
+    margin-right: 0!important;
+    margin-bottom: 0!important;
+    margin-left: 0!important;
+}
+
+#card-container-nome{
+    flex: 5;
+    width: 100%;
+    padding: 0;
+    margin-left: 20!important;
+}
+
+#card-container-nome h2{
+    font-size: 1.7rem;
+    font-weight: bold;
+    width: 250px;
+    margin-top: 0px!important;
+    margin-right: 0!important;
+    margin-bottom: 0!important;
+    margin-left: 20!important;
+}
+#card-container-imagem{
+    flex: 1;
+    width: 100%;
+}
+
+#card-container-imagem img{
+    width:150px;
+    height: 150px;
+}
+
+.container-card-test{
+    max-width: 500px!important;
+    min-height: 500px!important;
+}
+
+.container-card-test p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 25px;
+    padding: 10px;
+}
+
+.card-aspas{
+    position: absolute;
+    left: 1px;
+    top: -135px;
+    width: 180px;
+    transform: rotate(180deg);
+}
+
+/* Nossa Proposta */
+.proposta{
+    margin-top: 80px;
+    
+}
+#prop1{
+    background-color: #123C73;
+    padding: 220px;
+}
+#prop2{
+    background-image: url(../images/casa.png);
+    padding: 220px;
+}
+#container-prop{
+    position: absolute;
+    background-color: none;
+    left: 18%;
+    margin-top: 120px;
+    
+    
+
+}
+
+#card-prop {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+#card-prop div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    justify-content: center;
+    justify-items: center;
+    color: #010D26;
+    height: 150px;
+    width: 25%;
+    background-color: #fff;
+    border-radius: 12px;
+    text-align: center;
+}
+
+
+
 /* Sobre */
 
 #row1 div{
-
-
     justify-content: center;
     justify-items: center;
     color: #fff;
