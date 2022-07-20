@@ -31,267 +31,263 @@
 </head>
 
 <!-- Navbar -->
-<div class="container" id="nav-container">
-    <nav class="navbar navbar-custom navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">
-            <img src="../assets/images/LOGO.svg" width="260" height="290" class="d-inline-block align-top" alt="">
-        </a>
-        <div class="collapse navbar-collapse justify-content-end" id="nav-layout">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
+<body>
+    <div class="container" id="nav-container">
+        <nav class="navbar navbar-custom navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+                <img src="../assets/images/LOGO.svg" width="260" height="290" class="d-inline-block align-top" alt="">
+            </a>
+            <div class="collapse navbar-collapse justify-content-end" id="nav-layout">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
 
-                        <a class="nav-link" href="../Home/index.html">Home<span class="sr-only">(Página
-                                atual)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../Sobre/index.html">Sobre</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../Contato/index.html">Contato</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-</div>
-
-<!-- Banner -->
-<div class="row">
-    <div class="col s12" id="banner">
-        <div class="container">
-            <div class="Slides fade s-none" id="fundoForm">
-                <!-- <img src=""> -->
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- <div class="slideshow-container">
-
-        <div class="Slides fade s-none" id="banner">
-            <img src="../images/img banner.jpg">
-        </div>
-
-        <div class="Slides fade s-none" id="fundoForm">
-            <img src="">
-        </div>
-
-        <div class="Slides fade" id="fundoForm">
-            <img src="../images/img fundoazul.jpg">
-        </div>
-
-
-    </div> -->
-<div class="dotcentro">
-    <span class="dot active" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-</div>
-
-
-<!-- <div class="carousel-item" id="banner ">
-        <img src="..." alt="...">
-        <div class="carousel-caption d-none d-md-block">
-            <h2 class="white-text">Título</h2>
-            <p class="white-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br>
-                Velit officia consequat duis enim velit mollit.<br>
-                Exercitation veniam consequat sunt nostrud amet.
-            </p>
-        </div>
-      </div> -->
-<!-- Fim Banner -->
-
-<!--Card images-->
-<section class="grid-1">
-    <div class="col1"></div>
-    <div class="col2"></div>
-    <div class="col3"></div>
-    <div class="col4"></div>
-</section>
-
-<!-- Nossa Proposta -->
-<div class="proposta">
-    <div class="container" id="container-prop">
-        <div class="row justify-content-between" id="card-prop">
-
-            <div class="col container-card-test">
-                <div class="container-cards">
-                    <div id="card-container-imagem"><img src="../assets/images/clipboard.svg" class="img_fluid" id="img2"></div>
-                    <div id="card-container-nome"><h2>Compromisso com o cliente</h2></div>
-                </div>  
-            </div>
-            <div class="col container-card-test">
-                <div class="container-cards">
-                    <div id="card-container-imagem"><img src="../assets/images/lampada-de-ideia.svg" class="img_fluid" id="img2"></div>
-                    <div id="card-container-nome"><h2>Idéias inovadoras para a acomodação e satisfação do cliente</h2></div>
-                </div>  
-            </div>
-            <div class="col container-card-test">
-                <div class="container-cards">
-                    <div id="card-container-imagem"><img src="../assets/images/bolsa-de-dinheiro.svg" class="img_fluid" id="img2"></div>
-                    <div id="card-container-nome"><h2>Preço que cabe no bolso</h2></div>
-                </div>
-
-              
-            </div>
-
-        </div>
-        </div>
-    <div class="row" id="prop1">
-    </div>
-    <div class="row" id="prop2">
-    </div>
-</div>
-
-<!-- incio card Formulario -->
-<div class='row' id="fundoForm">
-    <div class='col-md-7'>
-        <div class="registration-form">
-            <form>
-                <div class="form-icon">
-                    <span><i class="icon icon-user"></i></span>
-                </div>
-                <h3 class="text-center">Envie uma mensagem para nós</h3>
-                <p>Preencha as informações básicas abaixo para que possamos entrar em contato com a melhor
-                    solução para o seu sonho!
-                </p>
-                <div class="form-group">
-                    <input type="text" class="form-control item" id="username" placeholder="Usuario">
-                </div>
-                <div class="form-group">
-                    <input type="text" class="form-control item" id="email" placeholder="Email">
-                </div>
-                <div class="form-group">
-                    <input type="text" class="form-control item" id="phone-number" placeholder="Telefone">
-                </div>
-                <div class="form-group">
-                    <button type="button" class="btn btn-block create-account" id="button-form">Enviar</button>
-                </div>
-            </form>
-        </div>
-    </div>
-    <div class='col-md-3'>
-        <div class="registration-form">
-            <form>
-                <div class="form-icon">
-                    <span><i class="icon icon-compass"></i></span>
-                </div>
-                <h1 class="text-center">Visite-nos</h1>
-                <div class="map">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15339.616150676631!2d-48.0656846!3d-16.0185102!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x340a250cf9255811!2sEdif%C3%ADcio%20Central!5e0!3m2!1spt-BR!2sbr!4v1657755802921!5m2!1spt-BR!2sbr"
-                        width="359" height="344.14" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    <b>Endereço:</b>
-                    <p>Asa Norte -DF Rua ksjaksj Quadra sdokfosdkfsd</p>
-                    <b>Telefone:</b>
-                    <p>(61) 9999-9999</p>
-                    <b>Email:</b>
-                    <p> coliveira@gmail.com</p>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
-<!-- Fim card Formulario -->
-
-<div class='row' id="fundoAzul">
-    <div class="container" style="width: 1680px;">
-        <div class="row justify-content-between" id="row-home">
-            <div class="col container-card-test">
-                <img src="../assets/images/quote.svg" alt="aspas" class="card-aspas">
-                <div class="container-cards">
-                    <div id="card-container-imagem"><img src="../assets/images/Gabriel.svg" class="img_fluid" id="img2"></div>
-                    <div id="card-container-nome"><h2>Felipe Scobert</h2></div>
-                </div>
-
-                <p>Amet minim mollit non deserunt
-                    ullamco est sit aliqua dolor do amet
-                    sint. Velit officia consequat duis
-                    enim velit mollit. Exercitation veniam
-                    consequat sunt nostrud amet.
-                </p>
-            </div>
-            <div class="col container-card-test">
-                <img src="../assets/images/quote.svg" alt="aspas" class="card-aspas">
-                <div class="container-cards">
-                    <div id="card-container-imagem"><img src="../assets/images/Felipe.svg" class="img_fluid" id="img2"></div>
-                    <div id="card-container-nome"><h2>Andre Santado</h2></div>
-                </div>
-
-                <p>Amet minim mollit non deserunt
-                    ullamco est sit aliqua dolor do amet
-                    sint. Velit officia consequat duis
-                    enim velit mollit. Exercitation veniam
-                    consequat sunt nostrud amet.
-                </p>
-            </div>
-            <div class="col container-card-test">
-                <img src="../assets/images/quote.svg" alt="aspas" class="card-aspas">
-                <div class="container-cards">
-                    <div id="card-container-imagem"><img src="../assets/images/Leticia.svg" class="img_fluid" id="img2"></div>
-                    <div id="card-container-nome"><h2>Vitinha Muller</h2></div>
-                </div>
-
-                <p>Amet minim mollit non deserunt
-                    ullamco est sit aliqua dolor do amet
-                    sint. Velit officia consequat duis
-                    enim velit mollit. Exercitation veniam
-                    consequat sunt nostrud amet.
-                </p>
-            </div>
-
-        </div>
-    </div>
-</div>
-
-<!--Footer-->
-<div class="footer-dark">
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-md-3 item">
-                    <ul>
-                        <li>
-                            <a class="align-top" href="#">
-                                <img src="../assets/images/Logo footer.svg" width="160" height="190"
-                                    class="d-inline-block align-top" alt="">
-                            </a>
+                            <a class="nav-link" href="../Home/index.html">Home<span class="sr-only">(Página
+                                    atual)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Sobre/index.html">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Contato/index.html">Contato</a>
                         </li>
                     </ul>
                 </div>
-                <div class="col-sm-6 col-md-3 item">
-                    <h3>Localização</h3>
-                    <ul>
-                        <p>Edifício central sala 112 setor central do Gama</p>
-                    </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Banner -->
+    <div class="row">
+        <div class="col s12" id="banner">
+            <div class="container">
+                <div class="Slides fade s-none" id="fundoForm">
+                    <!-- <img src=""> -->
                 </div>
-                <div class="col-md-6 item text">
-                    <h3>Sobre nós</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="slideshow-container">
+
+            <div class="Slides fade s-none" id="banner">
+                <img src="../images/img banner.jpg">
+            </div>
+
+            <div class="Slides fade s-none" id="fundoForm">
+                <img src="">
+            </div>
+
+            <div class="Slides fade" id="fundoForm">
+                <img src="../images/img fundoazul.jpg">
+            </div>
+
+
+        </div> -->
+    <div class="dotcentro">
+        <span class="dot active" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+
+    <!-- <div class="carousel-item" id="banner ">
+            <img src="..." alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h2 class="white-text">Título</h2>
+                <p class="white-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br>
+                    Velit officia consequat duis enim velit mollit.<br>
+                    Exercitation veniam consequat sunt nostrud amet.
+                </p>
+            </div>
+        </div> -->
+    <!-- Fim Banner -->
+
+    <!--Card images-->
+    <section class="grid-1">
+        <div class="col1"></div>
+        <div class="col2"></div>
+        <div class="col3"></div>
+        <div class="col4"></div>
+    </section>
+
+    <!-- Nossa Proposta -->
+    <div class="proposta">
+
+            <div class="row" id="card-prop">
+
+                <div class="col container-card-test">
+                    <div class="container-cards">
+                        <div id="card-container-imagem"><img src="../assets/images/clipboard.svg" class="img_fluid" id="img2"></div>
+                        <div id="card-container-nome"><h2>Compromisso com o cliente</h2></div>
+                    </div>  
+                </div>
+                <div class="col container-card-test">
+                    <div class="container-cards">
+                        <div id="card-container-imagem"><img src="../assets/images/lampada-de-ideia.svg" class="img_fluid" id="img2"></div>
+                        <div id="card-container-nome"><h2>Idéias inovadoras para a acomodação e satisfação do cliente</h2></div>
+                    </div>  
+                </div>
+                <div class="col container-card-test">
+                    <div class="container-cards">
+                        <div id="card-container-imagem"><img src="../assets/images/bolsa-de-dinheiro.svg" class="img_fluid" id="img2"></div>
+                        <div id="card-container-nome"><h2>Preço que cabe no bolso</h2></div>
+                    </div>
+                </div>
+            </div>
+        <div class="row" id="prop1">
+        </div>
+        <div class="row" id="prop2">
+        </div>
+    </div>
+
+    <!-- incio card Formulario -->
+    <div class='row' id="fundoForm">
+        <div class='col-md-7'>
+            <div class="registration-form">
+                <form>
+                    <div class="form-icon">
+                        <span><i class="icon icon-user"></i></span>
+                    </div>
+                    <h3 class="text-center">Envie uma mensagem para nós</h3>
+                    <p>Preencha as informações básicas abaixo para que possamos entrar em contato com a melhor
+                        solução para o seu sonho!
+                    </p>
+                    <div class="form-group">
+                        <input type="text" class="form-control item" id="username" placeholder="Usuario">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control item" id="email" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control item" id="phone-number" placeholder="Telefone">
+                    </div>
+                    <div class="form-group">
+                        <button type="button" class="btn btn-block create-account" id="button-form">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class='col-md-3'>
+            <div class="registration-form">
+                <form>
+                    <div class="form-icon">
+                        <span><i class="icon icon-compass"></i></span>
+                    </div>
+                    <h1 class="text-center">Visite-nos</h1>
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15339.616150676631!2d-48.0656846!3d-16.0185102!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x340a250cf9255811!2sEdif%C3%ADcio%20Central!5e0!3m2!1spt-BR!2sbr!4v1657755802921!5m2!1spt-BR!2sbr"
+                            width="359" height="344.14" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <b>Endereço:</b>
+                        <p>Asa Norte -DF Rua ksjaksj Quadra sdokfosdkfsd</p>
+                        <b>Telefone:</b>
+                        <p>(61) 9999-9999</p>
+                        <b>Email:</b>
+                        <p> coliveira@gmail.com</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Fim card Formulario -->
+
+    <div class='row' id="fundoAzul">
+        <div class="container" style="width: 1680px;">
+            <div class="row justify-content-between" id="row-home">
+                <div class="col container-card-test">
+                    <img src="../assets/images/quote.svg" alt="aspas" class="card-aspas">
+                    <div class="container-cards">
+                        <div id="card-container-imagem"><img src="../assets/images/Gabriel.svg" class="img_fluid" id="img2"></div>
+                        <div id="card-container-nome"><h2>Felipe Scobert</h2></div>
+                    </div>
+
                     <p>Amet minim mollit non deserunt
                         ullamco est sit aliqua dolor do amet
                         sint. Velit officia consequat duis
                         enim velit mollit. Exercitation veniam
-                        consequat sunt nostrud amet.</p>
+                        consequat sunt nostrud amet.
+                    </p>
                 </div>
-                <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i
-                            class="icon ion-social-linkedin"></i></a><a href="#"><i
-                            class="icon ion-social-instagram"></i></a></div>
+                <div class="col container-card-test">
+                    <img src="../assets/images/quote.svg" alt="aspas" class="card-aspas">
+                    <div class="container-cards">
+                        <div id="card-container-imagem"><img src="../assets/images/Felipe.svg" class="img_fluid" id="img2"></div>
+                        <div id="card-container-nome"><h2>Andre Santado</h2></div>
+                    </div>
+
+                    <p>Amet minim mollit non deserunt
+                        ullamco est sit aliqua dolor do amet
+                        sint. Velit officia consequat duis
+                        enim velit mollit. Exercitation veniam
+                        consequat sunt nostrud amet.
+                    </p>
+                </div>
+                <div class="col container-card-test">
+                    <img src="../assets/images/quote.svg" alt="aspas" class="card-aspas">
+                    <div class="container-cards">
+                        <div id="card-container-imagem"><img src="../assets/images/Leticia.svg" class="img_fluid" id="img2"></div>
+                        <div id="card-container-nome"><h2>Vitinha Muller</h2></div>
+                    </div>
+
+                    <p>Amet minim mollit non deserunt
+                        ullamco est sit aliqua dolor do amet
+                        sint. Velit officia consequat duis
+                        enim velit mollit. Exercitation veniam
+                        consequat sunt nostrud amet.
+                    </p>
+                </div>
+
             </div>
-            <p class="copyright">C OLIVEIRA empreendimentos imobiliários Ltda © 2022</p>
         </div>
-    </footer>
-    </body>
+    </div>
 
-    <script>
+    <!--Footer-->
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <ul>
+                            <li>
+                                <a class="align-top" href="#">
+                                    <img src="../assets/images/Logo footer.svg" width="160" height="190"
+                                        class="d-inline-block align-top" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Localização</h3>
+                        <ul>
+                            <p>Edifício central sala 112 setor central do Gama</p>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Sobre nós</h3>
+                        <p>Amet minim mollit non deserunt
+                            ullamco est sit aliqua dolor do amet
+                            sint. Velit officia consequat duis
+                            enim velit mollit. Exercitation veniam
+                            consequat sunt nostrud amet.</p>
+                    </div>
+                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i
+                                class="icon ion-social-linkedin"></i></a><a href="#"><i
+                                class="icon ion-social-instagram"></i></a></div>
+                </div>
+                <p class="copyright">C OLIVEIRA empreendimentos imobiliários Ltda © 2022</p>
+            </div>
+        </footer>
 
-    </script>
-    <script xasync defer src="https://maps.googleapis.com/maps/api/js?key=SUA_CHAVE_API_DO_GOOGLE&callback=inicializar">
-    </script>
+        <script>
 
+        </script>
+        <script xasync defer src="https://maps.googleapis.com/maps/api/js?key=SUA_CHAVE_API_DO_GOOGLE&callback=inicializar">
+        </script>
+</body>
 </html>
