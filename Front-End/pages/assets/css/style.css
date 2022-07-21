@@ -1,4 +1,18 @@
+/* Fonte */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap');
+body p{
+    font-family: 'Oswald', sans-serif !important;
+    font-weight: 300;
+}
+body h1,h2,h3{
+    font-family: 'Oswald', sans-serif !important;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
 /* Navbar*/
+
+
 nav {
     height: 105px;
     line-height: 105px;
@@ -454,6 +468,11 @@ card {
 }
 
 @media (max-width:767px) {
+
+    .footer-dark{
+        max-width: 767px !important;
+    }
+
     .footer-dark .item:not(.social) {
         text-align: center;
         padding-bottom: 20px;
@@ -466,7 +485,7 @@ card {
 
 @media (max-width:767px) {
     .footer-dark .item.text {
-        margin-bottom: 0;
+        margin-bottom: 55px;
     }
 }
 
@@ -711,9 +730,21 @@ card {
     }
 
     #nav-mobile{
-        background-color: #123C73;
+        background-color: rgba(255, 255, 255, 0.9) !important;  
     }
-
+    #nav-mobile a{
+        margin-bottom: 20px;
+        
+    }
+  
+    .custom-toggler{
+        border-color: #123C73 !important;
+        background-color: #123C73 !important;
+        
+        
+    }
+    
+    
    #carouselmobile{
     position: absolute;
     background-color: none;
@@ -805,22 +836,27 @@ card {
         background-color: #fff
     }
 
-    #inner{
-        width: 350px;
-    }
-
+    
     .container-cards1{
         width: 100px;
         max-height: 230px!important;
     }
-
+    
     .container-card-test {
         display: none !important;
     }
-
+    
     .carousel-inner{
-        margin-top: 0 auto;
+        margin-top: 0 auto !important;
     }
+    #inner1{
+        width: 350px;
+        margin-top: 0 auto !important;
+    }
+    #inner{
+        margin-top: 60px !important;
+    }
+
 
     .navbar-brand{
         align-items: center !important;
@@ -838,6 +874,106 @@ card {
     #nav-container a{
         margin-left: 0 auto;
     }
+
+    .registration-form form{
+        text-align: center;
+        width: 85%;
+        height: 670px;
+        margin: 0 auto;
+    }
+
+    .registration-form h3{
+        margin: auto;
+        font-size: 24px;
+        line-height: 1.2;
+        padding: 10px 0;
+
+    }
+
+    #fundoAzul1{
+        height: 125px;
+    }
+
+    #pfundo{
+        margin: auto;
+
+    }
+
+    #fundoAzul {
+        /* margin-top: 35px; */
+        background-image: url("../images/img fundoazul.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 520.9px;
+    }
+    #button-form{
+        margin-top: 30px;
+        max-width: 100%;
+
+    }
+
+    .registration-form .form-icon {
+        text-align: center;
+        background-color: #123C73;
+        border-radius: 50%;
+        font-size: 55px;
+        color: white;
+        width: 120px;
+        height: 120px;
+        margin-top: -40px !important;
+        padding-top: 10px;
+        margin-bottom: 10px;
+        line-height: 100px;
+    }
+
+    .map iframe {
+        margin-top: 30px;
+        max-width: 230px;
+        max-height: 250px !important;
+        background-color: grey;
+    
+    }
+    
+    /* Oque Fazemos?*/
+    #rowMaster{
+        max-height: 350px!important;
+        margin-top: 80px !important;
+    }
+
+    #rowMaster img{
+        position: relative;
+        max-width: 121px;
+        height: 180px;
+        margin-left: 50px !important;
+        margin-bottom: 10px !important;
+
+        
+    }
+
+    h1{
+        font-size: 24px !important;
+        
+       
+        
+    }
+    #rowMaster p{
+        font-size: 12px !important;
+        text-align: center;
+        text-shadow: 1px 1px 4px rgba(0, 0, 0,0.5);
+        letter-spacing: 1px;
+        max-width: 220px;
+        max-height: 220px ;
+        margin: 0 !important;
+        color: #fff !important;
+        padding: 20px;
+        padding-top: 25px;
+        background-color: #123C73;
+        border-radius: 20%;
+        box-shadow: rgba(0, 0, 0, 1) 0px 25px 20px -20px;
+    }
+
+
 
 }
 
