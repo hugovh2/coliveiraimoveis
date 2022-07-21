@@ -55,7 +55,8 @@ nav .btn {
     background-position: center center;
     height: 450px;
 }
-#banner4{
+
+#banner4 {
     margin-top: 35px;
     background-image: url("../images/img predio.jpg");
     background-repeat: no-repeat;
@@ -63,6 +64,7 @@ nav .btn {
     background-position: center center;
     height: 450px;
 }
+
 #banner p,
 h2 {
     font-weight: bold;
@@ -84,6 +86,7 @@ h2 {
     background-position: center center;
     height: 1000px;
 }
+
 #fundoAzul1 {
     /* margin-top: 35px; */
     background-image: url("../images/img fundoazul.jpg");
@@ -92,15 +95,17 @@ h2 {
     background-position: center center;
     height: 200px;
 }
+
 #pfundo {
-margin-top: 70px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 44px;
-color: #FFFFFF;
+    margin-top: 70px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
 }
+
 #fundoAzul {
     /* margin-top: 35px; */
     background-image: url("../images/img fundoazul.jpg");
@@ -109,6 +114,7 @@ color: #FFFFFF;
     background-position: center center;
     height: 800.9px;
 }
+
 /*fim imagem de fundo*/
 
 /* Card de imagens */
@@ -167,7 +173,7 @@ color: #FFFFFF;
     border-radius: 10px;
 }
 
- #button-form {
+#button-form {
     margin-top: 120px;
     width: 360px;
     text-align: center;
@@ -180,15 +186,15 @@ color: #FFFFFF;
     font-weight: bold;
 }
 
-#button-form:hover{
+#button-form:hover {
     opacity: 0.6;
-    color:#000000 ;
+    color: #000000;
 }
 
 .registration-form h3 {
     font-family: 'Inter';
     font-weight: 700;
-    font-size: 25px;    
+    font-size: 25px;
     line-height: 45px;
     text-align: center;
     color: #020202;
@@ -274,11 +280,12 @@ card {
     text-align: center;
     color: #ffffff;
 }
+
 #registration-form h1 {
     position: absolute;
     width: 187px;
     height: 38.8px;
-    
+
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -343,14 +350,17 @@ card {
         font-size: 30px;
         line-height: 70px;
     }
+
 }
+
 .registration-form map {
     width: 50px;
     height: 200px;
     background-color: grey;
 
 }
-.card-form form{
+
+.card-form form {
     background-image: url("../images/img banner.jpg");
     justify-content: center;
     justify-items: center;
@@ -368,6 +378,7 @@ card {
     cursor: pointer;
     /* box-shadow: 0 0 20px 8px #d0d0d0; */
 }
+
 /* .card-form h3{
     font-family: 'Inter';
     font-weight: 400;
@@ -383,19 +394,21 @@ card {
     width: 60px;
     height: 60px;
 }
-.card-form h1{
-position: center;
-font-size: 20px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-text-transform: capitalize;
+
+.card-form h1 {
+    position: center;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    text-transform: capitalize;
 
 
-font-size: 36px;
-line-height: 44px;
+    font-size: 36px;
+    line-height: 44px;
 }
-.card-form p{
+
+.card-form p {
     margin-top: 13%;
     font-family: 'Inter';
     font-weight: 400;
@@ -405,6 +418,7 @@ line-height: 44px;
     text-align: center;
     color: black;
 }
+
 /*Fim card de contato/Localidade*/
 
 /*Footer*/
@@ -569,8 +583,8 @@ line-height: 44px;
 
 }
 
-#row-home div{
-    
+#row-home div {
+
     margin: 30px;
     justify-content: center;
     justify-items: center;
@@ -582,56 +596,57 @@ line-height: 44px;
     text-align: center;
 }
 
-.container-cards{
+.container-cards {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    width: 90%!important;
-    margin-top: 10px!important;
-    margin-right: 0!important;
-    margin-bottom: 0!important;
-    margin-left: 0!important;
+    width: 90% !important;
+    margin-top: 10px !important;
+    margin-right: 0 !important;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
 }
 
-#card-container-nome{
+#card-container-nome {
     flex: 5;
     width: 100%;
     padding: 0;
-    margin-left: 20!important;
+    margin-left: 20 !important;
 }
 
-#card-container-nome h2{
+#card-container-nome h2 {
     font-size: 1.7rem;
     font-weight: bold;
     width: 250px;
-    margin-top: 0px!important;
-    margin-right: 0!important;
-    margin-bottom: 0!important;
-    margin-left: 20!important;
+    margin-top: 0px !important;
+    margin-right: 0 !important;
+    margin-bottom: 0 !important;
+    margin-left: 20 !important;
 }
-#card-container-imagem{
+
+#card-container-imagem {
     flex: 1;
     width: 100%;
 }
 
-#card-container-imagem img{
-    width:150px;
+#card-container-imagem img {
+    width: 150px;
     height: 150px;
 }
 
-.container-card-test{
-    max-width: 500px!important;
-    min-height: 500px!important;
+.container-card-test {
+    max-width: 500px !important;
+    min-height: 500px !important;
 }
 
-.container-card-test p{
+.container-card-test p {
     font-size: 1.5rem;
     font-weight: 400;
     margin-top: 25px;
     padding: 10px;
 }
 
-.card-aspas{
+.card-aspas {
     position: absolute;
     left: 1px;
     top: -135px;
@@ -639,16 +654,19 @@ line-height: 44px;
     transform: rotate(180deg);
 }
 
+
 /* Nossa Proposta */
-.proposta{
+.proposta {
     margin-top: 80px;
 }
-#prop1{
+
+#prop1 {
     background-color: #123C73;
     padding: 220px;
     width: 100vw;
 }
-#prop2{
+
+#prop2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(../images/casa.png);
@@ -657,13 +675,13 @@ line-height: 44px;
 }
 
 
-#card-prop{
+#card-prop {
     position: absolute;
-    bottom: -400px;
-    left: calc(50% - (1320px/2));
+    bottom: -800px;
+    left: calc(50% - (1422px/2));
 }
 
-#card-prop div{
+#card-prop div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -671,12 +689,162 @@ line-height: 44px;
     justify-content: center;
     justify-items: center;
     color: #010D26;
-    height: 150px;
+    height: 180px;
     max-width: 400px;
     background-color: #fff;
     border-radius: 12px;
     text-align: center;
 }
+@media(min-width:600px){
+#carouselmobile{
+    display: none;
+}
+#nav-mobile{
+    display: none;
+}
+}
+
+@media (max-width:600px) {
+
+    #nav-container{
+        display: none !important;
+    }
+
+    #nav-mobile{
+        background-color: #123C73;
+    }
+
+   #carouselmobile{
+    position: absolute;
+    background-color: none;
+    left: calc(50% - (412px/2));
+    padding: 0 !important;
+    margin: 30px;
+   }
+
+   #active{
+    background: rgba(0, 0, 0, 0);
+   }
+
+   #itemcarousel{
+    padding: 0;
+    background: rgba(0, 0, 0, 0);
+   }
+
+    .container-cards1 {
+        display: flex;
+        align-items: center !important;
+        justify-content: center;
+        flex-direction: column;
+        width: 100% !important;
+        margin-top: 10px !important;
+        margin-right: 0 !important;
+        margin-bottom: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    #card-container-nome1 { 
+        width: 100%;
+        padding: 0;
+        margin: 0 !important;
+        text-align: center !important;
+    }
+
+    #card-container-nome1 h2 {
+    
+        font-size: 1rem;
+        font-weight: bold;
+        margin-top: 50px !important;
+        margin-right: 0 !important;
+        margin-bottom: 0 !important;
+        margin-left: 0 !important;
+       
+    }
+
+    #card-container-imagem1 {
+        flex: 1;
+        width: 100%;
+    }
+
+    #card-container-imagem1 img {
+        width: 80px;
+        height: 80px;
+    }
+
+    #card-prop1 {
+        display: none;
+    }
+    #prop1 {
+        background-color: #123C73;
+        padding: 120px;
+        width: 100vw;
+        margin: 0!important;
+    }
+
+    #prop2 {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../images/casa.png);
+        padding: 120px;
+        width: 100vw;
+        margin: 0!important;
+    }
+
+    .container-card-test1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px;
+        justify-content: center;
+        justify-items: center;
+        color: #010D26;
+        height: 330px!important;
+        max-width: 250px!important;
+        border-radius: 12px;
+        text-align: center;
+        background-color: #fff
+    }
+
+    #inner{
+        width: 350px;
+    }
+
+    .container-cards1{
+        width: 100px;
+        max-height: 230px!important;
+    }
+
+    .container-card-test {
+        display: none !important;
+    }
+
+    .carousel-inner{
+        margin-top: 0 auto;
+    }
+
+    .navbar-brand{
+        align-items: center !important;
+        margin: 0 !important;
+    }
+
+    #nav-container{
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        align-items: center;
+        width: 280px;
+        height: 140px;;
+    }
+    #nav-container a{
+        margin-left: 0 auto;
+    }
+
+}
+
+
+
+ 
+
 
 /* Sobre */
 
@@ -716,6 +884,9 @@ line-height: 44px;
     text-align: center;
 
 }
+
+
+
 
 /* Sobre nos */
 

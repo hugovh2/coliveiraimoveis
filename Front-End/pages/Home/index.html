@@ -34,6 +34,50 @@
 
 </head>
 <!-- Navbar -->
+
+<!-- Responsivo-->
+    <nav class="navbar navbar-dark navbar-expand-xsm bg-dark fixed-top" id="nav-mobile">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Offcanvas dark navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+  <!-- Fim Responsivo-->
 <div class="container" id="nav-container">
     <nav class="navbar navbar-custom navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">
@@ -108,9 +152,62 @@
 <!-- Nossa Proposta -->
 <div class="proposta">
 
+    <!-- Responsivo -->
+    <div id="carouselmobile" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner" id="inner">
+            <div class="carousel-item active" id="active">
+                <div class="col container-card-test1">
+                    <div class="container-cards1">
+                        <div id="card-container-imagem1"><img src="../assets/images/clipboard.svg" class="img_fluid"
+                                id="img2">
+                        </div>
+                        <div id="card-container-nome1">
+                            <h2>Compromisso com o cliente</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item"  id="itemcarousel">
+                <div class="col container-card-test1">
+                    <div class="container-cards1">
+                        <div id="card-container-imagem1"><img src="../assets/images/lampada-de-ideia.svg"
+                                class="img_fluid" id="img2"></div>
+                        <div id="card-container-nome1">
+                            <h2>Idéias inovadoras para a acomodação e satisfação do cliente</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item"  id="itemcarousel">
+                <div class="col container-card-test1">
+                    <div class="container-cards1">
+                        <div id="card-container-imagem1"><img src="../assets/images/bolsa-de-dinheiro.svg"
+                                class="img_fluid" id="img2"></div>
+                        <div id="card-container-nome1">
+                            <h2>Preço que cabe no bolso</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- Fim Responsivo -->
     <div class="row" id="card-prop">
-
-        <div class="col container-card-test">
+        <div class="col container-card-test" id="teste">
             <div class="container-cards">
                 <div id="card-container-imagem"><img src="../assets/images/clipboard.svg" class="img_fluid" id="img2">
                 </div>
@@ -223,8 +320,11 @@
             <div class="col container-card-test">
                 <img src="../assets/images/quote.svg" alt="aspas" class="card-aspas">
                 <div class="container-cards">
-                    <div id="card-container-imagem"><img src="../assets/images/Gabriel.svg" class="img_fluid" id="img2"></div>
-                    <div id="card-container-nome"><h2>Felipe Scobert</h2></div>
+                    <div id="card-container-imagem"><img src="../assets/images/Gabriel.svg" class="img_fluid" id="img2">
+                    </div>
+                    <div id="card-container-nome">
+                        <h2>Felipe Scobert</h2>
+                    </div>
                 </div>
 
                 <p>Amet minim mollit non deserunt
@@ -237,8 +337,11 @@
             <div class="col container-card-test">
                 <img src="../assets/images/quote.svg" alt="aspas" class="card-aspas">
                 <div class="container-cards">
-                    <div id="card-container-imagem"><img src="../assets/images/Felipe.svg" class="img_fluid" id="img2"></div>
-                    <div id="card-container-nome"><h2>Andre Santado</h2></div>
+                    <div id="card-container-imagem"><img src="../assets/images/Felipe.svg" class="img_fluid" id="img2">
+                    </div>
+                    <div id="card-container-nome">
+                        <h2>Andre Santado</h2>
+                    </div>
                 </div>
 
                 <p>Amet minim mollit non deserunt
@@ -251,8 +354,11 @@
             <div class="col container-card-test">
                 <img src="../assets/images/quote.svg" alt="aspas" class="card-aspas">
                 <div class="container-cards">
-                    <div id="card-container-imagem"><img src="../assets/images/Leticia.svg" class="img_fluid" id="img2"></div>
-                    <div id="card-container-nome"><h2>Vitinha Muller</h2></div>
+                    <div id="card-container-imagem"><img src="../assets/images/Leticia.svg" class="img_fluid" id="img2">
+                    </div>
+                    <div id="card-container-nome">
+                        <h2>Vitinha Muller</h2>
+                    </div>
                 </div>
 
                 <p>Amet minim mollit non deserunt
