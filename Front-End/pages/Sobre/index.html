@@ -11,9 +11,11 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <!-- JavaScript -->
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
@@ -23,6 +25,42 @@
 
 <body>
   <!-- Navbar -->
+  <!-- Responsivo-->
+  <nav class="navbar navbar-dark navbar-expand-xsm bg-dark fixed-top" id="nav-mobile">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../Home/index.html">
+        <img src="../assets/images/LOGO.svg" width="200" height="90">
+      </a>
+      <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+        <span class="navbar-toggler-icon" ></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+            <a href="../Home/index.html">
+                <img src="../assets/images/LOGO.svg" width="200" height="90">
+              </a>
+          <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item active">
+                <a class="nav-link" href="../Home/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../Sobre/index.html">Sobre<span class="sr-only">(Página
+                  atual)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../Contato/index.html">Contato</a>
+            </li>
+            </ul>
+           
+    
+        </div>
+      </div>
+    </div>
+  </nav>
+<!-- Fim Responsivo-->
   <div class="container" id="nav-container">
     <nav class="navbar navbar-custom navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="#">
@@ -53,7 +91,7 @@
   <div class="container">
     <div class="row justify-content-between" id="row1">
 
-      <div class="col-3 col-sm-12 col-md-3">
+      <div class="col-3 col-sm-12 col-md-3" id="vision">
         <h2>Visão</h2>
         <img src="../assets/images/logo visao.svg" class="img_fluid">
       </div>
@@ -73,8 +111,8 @@
         <p>Ser uma empresa inovadora que oferece diversas opções de imóveis visando sempre atender a necessidade do
           cliente e inspirar paixão e principalmente satisfação para todos.</p>
       </div>
-      <div class="col">
-        <img src="../assets/images/Visão.svg" width="590" height="410" alt="">
+      <div class="col" id="colsobre">
+        <img src="../assets/images/Visao.svg" width="590" height="410" alt="">
       </div>
     </div>
     <div class="row" id="row2">
@@ -84,8 +122,8 @@
           e avaliações feitas por engenheiros com o intuito de proporcionar imóveis com muito conforto, bem posicionado
           em áreas comerciais pensando sempre no lazer e na utilidade para o cliente.</p>
       </div>
-      <div class="col">
-        <img src="../assets/images/Missão.svg" width="590" height="410" alt="">
+      <div class="col" id="colsobre">
+        <img src="../assets/images/Missao.svg" width="590" height="410" alt="">
       </div>
     </div>
     <div class="row" id="row2">
@@ -93,7 +131,7 @@
         <h2>Valores</h2>
         <p>Preços competitivos, honestidade, atendimento diferenciado, respeito, dedicação e sustentabilidade.</p>
       </div>
-      <div class="col">
+      <div class="col" id="colsobre">
         <img src="../assets/images/Valores.svg" width="590" height="410" alt="">
       </div>
     </div>

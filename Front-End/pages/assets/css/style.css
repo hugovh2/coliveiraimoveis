@@ -725,6 +725,7 @@ card {
 
 @media (max-width:600px) {
 
+
     #nav-container{
         display: none !important;
     }
@@ -737,6 +738,39 @@ card {
         
     }
   
+    .offcanvas {
+        height: 100vh;
+        width: 65% !important;
+    }
+
+    .offcanvas-header{
+        margin: 10px;
+    }
+
+    .nav-item{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-link{
+        height: 100px!important;
+        text-align: center!important;
+        margin-left: 0;
+    }
+
+    .offcanvas-body li{
+        font-weight: bold;
+        font-size: 24px;
+        margin-left: 30px !important;
+        width: 240px;
+        height: 80px;
+        margin: 10px;
+        text-align: center;
+        background-color: #123C73;
+        border-radius: 12px 0 12px 0;
+    }
+
     .custom-toggler{
         border-color: #123C73 !important;
         background-color: #123C73 !important;
@@ -983,6 +1017,41 @@ card {
 
 
 /* Sobre */
+
+@media (max-width:600px) {
+    #row1{
+        width: 100%;  
+        margin-top: 180px;
+    }
+
+    #row1 div{
+        width: 120px !important;
+        height: 140px !important;
+        margin: 10px !important;
+    }
+    #row1 img{
+        margin-top: 0;
+        width: 50px;
+    }
+    #vision img{
+        width: 70px !important;
+    }
+    #row1 h2{
+      margin-bottom: 10px !important;
+       
+    }
+
+    #colsobre{
+        width: 100%;
+    }
+    #colsobre img{
+        max-width: 320px !important;
+        height: 320px !important;
+        margin: 20px;
+       
+    }
+
+}
 
 #row1 div {
     justify-content: center;
