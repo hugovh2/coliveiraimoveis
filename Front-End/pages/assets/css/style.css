@@ -14,14 +14,16 @@ body h1,h2,h3{
 
 
 nav {
-    height: 105px;
+    margin-top: 40px;
+    height: 20px;
     line-height: 105px;
+    background-color: e0ebf3;
 }
 
 nav ul a {
     color: #000000;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 24px !important;
+    font-weight: bold !important;
     margin-left: 15px;
 }
 
@@ -31,11 +33,7 @@ nav ul a {
 
 }
 
-nav .btn {
-    color: #fff;
-    background-color: #143373;
-    border-radius: 12px;
-}
+
 
 .btn:hover {
     opacity: 1;
@@ -43,40 +41,44 @@ nav .btn {
 }
 
 /* Banner */
+
 #banner {
     margin-top: 35px;
-    background-image: url("../images/img banner.jpg");
+    background-image: url("../images/BANNER\ SITE.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 450px;
+    height: 100vh;
+
 }
 
 #banner2 {
     margin-top: 35px;
-    background-image: url("../images/img\ cozinha.jpg");
+    background-image: url("../images/BANNER\ SITE.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 450px;
+    height: 100vh;
 }
 
 #banner3 {
     margin-top: 35px;
-    background-image: url("../images/img FundoForm.jpg");
+    background-image: url("../images/BANNER\ SITE.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 450px;
+    height: 100vh;
+
 }
 
 #banner4 {
     margin-top: 35px;
-    background-image: url("../images/img predio.jpg");
+    background-image: url("../images/BANNER\ SITE.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 450px;
+    height: 100vh;
+
 }
 
 #banner p,
@@ -133,7 +135,8 @@ h2 {
 
 /* Card de imagens */
 .grid-1 {
-    margin-top: 60px;
+    margin-top: 150px;
+    margin-bottom: 0 auto;
     display: grid;
     justify-content: center;
     justify-items: center;
@@ -676,7 +679,9 @@ card {
 
 /* Nossa Proposta */
 .proposta {
-    margin-top: 80px;
+    justify-content: center;
+    margin-top: -220px !important;
+    height: 14s00px;
 }
 
 #prop1 {
@@ -695,9 +700,12 @@ card {
 
 
 #card-prop {
-    position: absolute;
-    bottom: -800px;
-    left: calc(50% - (1422px/2));
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: -720px;
+    width: 100vw;
 }
 
 #card-prop div {
@@ -708,7 +716,7 @@ card {
     justify-content: center;
     justify-items: center;
     color: #010D26;
-    height: 180px;
+    max-height: 180px;
     max-width: 400px;
     background-color: #fff;
     border-radius: 12px;
@@ -731,10 +739,15 @@ card {
     }
 
     #nav-mobile{
+        margin-top: 0;
+        height: 120px !important;
         background-color: rgba(255, 255, 255, 0.9) !important;  
     }
+
+   
     #nav-mobile a{
-        margin-bottom: 20px;
+        margin-bottom: 0;
+        
         
     }
   
@@ -794,6 +807,19 @@ card {
    #itemcarousel{
     padding: 0;
     background: rgba(0, 0, 0, 0);
+   }
+   .grid-1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-bottom: 240px;
+   }
+
+   .grid-1 div{
+
+    width: 180px;
+    height: 180px;
+
    }
 
     .container-cards1 {
@@ -889,6 +915,49 @@ card {
     }
     #inner{
         margin-top: 60px !important;
+
+    }
+    #banner {
+        margin-top: 75px;
+        background-image: url("../images/BANNER\ SITE.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 215px;
+        width: 99vw;
+    
+    }
+    
+    #banner2 {
+        margin-top: 75px;
+        background-image: url("../images/BANNER\ SITE.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 215px;
+        width: 99vw;
+    }
+    
+    #banner3 {
+        margin-top: 75px;
+        background-image: url("../images/BANNER\ SITE.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 215px;
+        width: 99vw;
+    
+    }
+    
+    #banner4 {
+        margin-top: 75px;
+        background-image: url("../images/BANNER\ SITE.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 215px;
+        width: 99vw;
+    
     }
 
 
