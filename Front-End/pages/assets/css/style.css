@@ -72,7 +72,7 @@ nav ul a {
 }
 
 #banner {
-    margin-top: 35px;
+    margin-top: 0;
     background-image: url("../images/BANNER\ SITE.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -82,7 +82,7 @@ nav ul a {
 }
 
 #banner2 {
-    margin-top: 35px;
+    margin-top: 0;
     background-image: url("../images/BANNER\ SITE.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,7 +91,7 @@ nav ul a {
 }
 
 #banner3 {
-    margin-top: 35px;
+    margin-top: 0;
     background-image: url("../images/BANNER\ SITE.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -101,7 +101,7 @@ nav ul a {
 }
 
 #banner4 {
-    margin-top: 35px;
+    margin-top: 0;
     background-image: url("../images/BANNER\ SITE.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -1093,17 +1093,9 @@ card {
         flex-direction: column;
         max-height: 350px!important;
         margin-top: 80px !important;
-        margin-bottom: 280px !important;
+        margin-bottom: 300px !important;
     }
-
-    #rowMaster img{
-        max-width: 190px;
-        height: 180px;
-        margin-left: 50px !important;
-        margin-bottom: 0 !important;
-
-        
-    }
+    
 
     h1{
         font-size: 24px !important;
@@ -1112,15 +1104,17 @@ card {
         
     }
     #rowMaster p{
-        font-size: 12px !important;
+        font-size: 16px !important;
+        left: 0;
+        bottom: 300 !important;
         text-align: center;
         text-shadow: 1px 1px 4px rgba(0, 0, 0,0.5);
         letter-spacing: 1px;
-        max-width: 220px;
-        max-height: 220px ;
+        max-width: 280px;
+        max-height: 280px ;
         margin: 0 !important;
         color: #fff !important;
-        padding: 20px;
+        padding: 35px;
         padding-top: 25px;
         background-color: #123C73;
         background-blend-mode: darken!important;
@@ -1128,13 +1122,9 @@ card {
         box-shadow: rgba(0, 0, 0, 1) 0px 25px 20px -20px;
     }
 
-
-
 }
 
 
-
- 
 
 
 /* Sobre */
