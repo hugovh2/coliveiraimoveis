@@ -1,3 +1,6 @@
+html{
+    height: 100% !important;
+}
 /* Fonte */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap');
 body p{
@@ -31,6 +34,7 @@ nav {
     height: 90px;
     line-height: 105px;
     background-color: #fff;
+    box-shadow: 0px 10px 5px -12px rgba(0,0,0,0.75);
 }
 
 nav ul a {
@@ -715,6 +719,7 @@ card {
     background-color: #123C73;
     padding: 220px;
     width: 100vw;
+    margin: 0;
 }
 
 #prop2 {
@@ -723,6 +728,7 @@ card {
     background-image: url(../images/casa.png);
     padding: 220px;
     width: 100vw;
+    margin: 0;
 }
 
 
@@ -767,8 +773,9 @@ card {
 
     #nav-mobile{
         margin-top: 0;
-        height: 120px !important;
-        background-color: rgba(255, 255, 255, 0.9) !important;  
+        height: 100px !important;
+        background-color: rgba(255, 255, 255, 1) !important;  
+        box-shadow: 0px 10px 5px -12px rgba(0,0,0,0.75);
     }
 
    
@@ -1070,9 +1077,7 @@ card {
         line-height: 100px;
     }
 
-    .map{
-        
-    }
+    
     .map iframe {
         margin-top: 30px;
         max-width: 230px;
@@ -1321,8 +1326,12 @@ card {
 }
 .footer-dark{
     width: 100% !important;
-    margin: 0;
+    margin: 0 !important;
+    padding: 0 !important;
     background-color: #010D26;
- 
-  
+
+}
+
+#footer-items div{
+    margin-top: 60px;
 }
