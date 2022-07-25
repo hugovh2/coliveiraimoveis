@@ -10,14 +10,27 @@ body h1,h2,h3{
     text-transform: uppercase;
 
 }
+body{
+    padding-top: 40px;
+}
+
 /* Navbar*/
 
+#nav-container{
+    position: fixed;
+    z-index: 9900;
+    top: 0;
+    width: 100% !important;
+    height: 120px;
+    margin: 0 !important;
+
+}
 
 nav {
     margin-top: 40px;
-    height: 20px;
+    height: 90px;
     line-height: 105px;
-    background-color: e0ebf3;
+    background-color: #fff;
 }
 
 nav ul a {
@@ -33,14 +46,26 @@ nav ul a {
 
 }
 
-
+.navbar-nav{
+    height: 90px;
+    margin-bottom: 30px !important;
+    margin-right: 50px;
+}
 
 .btn:hover {
     opacity: 1;
     background-color: #010D26;
 }
+.navbar-brand{
+    margin-left: 50px;
+}
 
 /* Banner */
+
+#inner{
+    height: 900px;
+    margin-top: 30px
+}
 
 #banner {
     margin-top: 35px;
@@ -922,9 +947,9 @@ card {
         background-image: url("../images/BANNER\ SITE.png");
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center center;
         height: 215px;
-        width: 99vw;
+        width: 380px;
+        margin-right: 0;
     
     }
     
@@ -935,7 +960,7 @@ card {
         background-size: cover;
         background-position: center center;
         height: 215px;
-        width: 99vw;
+        width: 100%;
     }
     
     #banner3 {
@@ -945,7 +970,7 @@ card {
         background-size: cover;
         background-position: center center;
         height: 215px;
-        width: 99vw;
+        width: 100vw;
     
     }
     
@@ -956,7 +981,7 @@ card {
         background-size: cover;
         background-position: center center;
         height: 215px;
-        width: 99vw;
+        width: 100vw;
     
     }
 
@@ -1126,7 +1151,7 @@ card {
     justify-content: center;
     justify-items: center;
     color: #fff;
-    margin-top: 30px;
+    margin-top: 90px;
     height: 180px;
     width: 20%;
     background-color: #123C73;
@@ -1196,7 +1221,6 @@ card {
     width: 632px;
     height: 514px;
 
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
