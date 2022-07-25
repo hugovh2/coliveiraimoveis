@@ -41,7 +41,7 @@
           <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
             <div class="offcanvas-header">
                 <a href="../Home/index.html">
-                    <img src="../assets/images/ComLogo-SemImoveis.svg" width="200" height="90">
+                    <img src="../assets/images/ComLogo-SemImoveis.svg" class="logo-nav">
                   </a>
               <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
@@ -95,6 +95,7 @@
  
 <!-- Fim Navbar -->
 
+
 <!-- Banner -->
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -127,7 +128,10 @@
     </a>
 </div>
 <!-- Fim Banner -->
-
+<!-- Whatsapp-->
+<a class="whatsapp-link" href="https://web.whatsapp.com/send?phone=556185487108" target="_blank">
+    <i class="icon ion-social-whatsapp" id="whatsapp"></i>
+    </a>
 <!--Card images-->
 <section class="grid-1">
     <div class="col1"></div>
@@ -141,6 +145,7 @@
 
     <!-- Responsivo -->
     <div id="carouselmobile" class="carousel slide" data-ride="carousel">
+        <h1>Nossa Proposta</h1>
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -232,11 +237,11 @@
     <div class="row">
         <h1 class="text-center">O que Fazemos?</h1>
         <div class="col-6">
-            <p>Ser uma empresa inovadora que oferece diversas opções de imóveis visando sempre atender a necessidade do
+            <p>Somos uma empresa inovadora que oferece diversas opções de imóveis visando sempre atender a necessidade do
                 cliente e inspirar paixão e principalmente satisfação para todos.</p>
         </div>
         <div class="col">
-            <img src="../assets/images/sobre.svg" width="600" height="450" alt="">
+            <img src="../assets/images/sobre.svg" width="600" height="450" id="duvida">
         </div>
     </div>
 </div>
@@ -370,7 +375,7 @@
                     <ul>
                         <li>
                             <a class="align-top" href="#">
-                                <img src="../assets/images/Logo footer.svg" width="160" height="190"
+                                <img src="../assets/images/ComLogo-SemImoveis-Branca.svg" width="160" height="190"
                                     class="d-inline-block align-top" alt="">
                             </a>
                         </li>
@@ -384,11 +389,7 @@
                 </div>
                 <div class="col-md-6 item text">
                     <h3>Sobre nós</h3>
-                    <p>Amet minim mollit non deserunt
-                        ullamco est sit aliqua dolor do amet
-                        sint. Velit officia consequat duis
-                        enim velit mollit. Exercitation veniam
-                        consequat sunt nostrud amet.</p>
+                    <p>A empresa C Oliveira Imoveis que tem como razão social C Oliveira Empreendimentos Imobiliarios Ltda foi fundada em 03/01/2018 e está cadastrada na Solutudo no segmento de Imobiliárias</p>
                 </div>
                 <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i
                             class="icon ion-social-linkedin"></i></a><a href="#"><i

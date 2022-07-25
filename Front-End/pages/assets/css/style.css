@@ -15,7 +15,7 @@ body{
 }
 
 /* Navbar*/
-
+@media (min-width: 600px){
 #nav-container{
     position: fixed;
     z-index: 9900;
@@ -59,7 +59,7 @@ nav ul a {
 .navbar-brand{
     margin-left: 50px;
 }
-
+}
 /* Banner */
 
 #inner{
@@ -126,6 +126,7 @@ h2 {
     background-size: cover;
     background-position: center center;
     height: 1000px;
+    margin: 0;
 }
 
 #fundoAzul1 {
@@ -135,6 +136,7 @@ h2 {
     background-size: cover;
     background-position: center center;
     height: 200px;
+    margin: 0;
 }
 
 #pfundo {
@@ -397,7 +399,7 @@ card {
 
 .registration-form map {
     width: 50px;
-    height: 200px;
+    height: 280px;
     background-color: grey;
 
 }
@@ -778,7 +780,12 @@ card {
   
     .offcanvas {
         height: 100vh;
-        width: 65% !important;
+        width: 70% !important;
+    }
+
+    .logo-nav{
+     width: 170px;
+     height: auto;
     }
 
     .offcanvas-header{
@@ -794,13 +801,13 @@ card {
     .nav-link{
         height: 100px!important;
         text-align: center!important;
-        margin-left: 0;
+        margin-top: 50px;
     }
 
     .offcanvas-body li{
         font-weight: bold;
         font-size: 24px;
-        margin-left: 30px !important;
+        margin-left: 0 !important;
         width: 240px;
         height: 80px;
         margin: 10px;
@@ -816,8 +823,14 @@ card {
         
     }
     
+    #duvida{
+        display: none;
+    }
     
    #carouselmobile{
+    color: #fff;
+    font-weight: 600 !important;
+    text-align: center;
     position: absolute;
     background-color: none;
     left: calc(50% - (412px/2));
@@ -940,6 +953,7 @@ card {
     }
     #inner{
         margin-top: 60px !important;
+        height: auto;
 
     }
     #banner {
@@ -947,8 +961,8 @@ card {
         background-image: url("../images/BANNER\ SITE.png");
         background-repeat: no-repeat;
         background-size: cover;
-        height: 215px;
-        width: 380px;
+        height: 23vh;
+        width: 100vw;
         margin-right: 0;
     
     }
@@ -959,8 +973,8 @@ card {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
-        height: 215px;
-        width: 100%;
+        height: 23vh;
+        width: 100vw;
     }
     
     #banner3 {
@@ -969,7 +983,7 @@ card {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
-        height: 215px;
+        height: 23vh;
         width: 100vw;
     
     }
@@ -980,9 +994,8 @@ card {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
-        height: 215px;
+        height: 23vh;
         width: 100vw;
-    
     }
 
 
@@ -1006,8 +1019,9 @@ card {
     .registration-form form{
         text-align: center;
         width: 85%;
-        height: 670px;
-        margin: 0 auto;
+        height: 690px;
+        margin-bottom: -20px;
+        margin-top: 0;
     }
 
     .registration-form h3{
@@ -1034,6 +1048,7 @@ card {
         background-size: cover;
         background-position: center center;
         height: 520.9px;
+        margin: 0;
     }
     #button-form{
         margin-top: 30px;
@@ -1055,6 +1070,9 @@ card {
         line-height: 100px;
     }
 
+    .map{
+        
+    }
     .map iframe {
         margin-top: 30px;
         max-width: 230px;
@@ -1065,16 +1083,19 @@ card {
     
     /* Oque Fazemos?*/
     #rowMaster{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
         max-height: 350px!important;
         margin-top: 80px !important;
+        margin-bottom: 280px !important;
     }
 
     #rowMaster img{
-        position: relative;
-        max-width: 121px;
+        max-width: 190px;
         height: 180px;
         margin-left: 50px !important;
-        margin-bottom: 10px !important;
+        margin-bottom: 0 !important;
 
         
     }
@@ -1097,6 +1118,7 @@ card {
         padding: 20px;
         padding-top: 25px;
         background-color: #123C73;
+        background-blend-mode: darken!important;
         border-radius: 20%;
         box-shadow: rgba(0, 0, 0, 1) 0px 25px 20px -20px;
     }
@@ -1199,11 +1221,78 @@ card {
     margin-bottom: 30px;
     font-size: 36px;
     font-weight: bold;
+
     /* Oque Fazemos? */
 
     /* identical to box height */
     color: #010D26;
 }
+
+ /* Whatsapp*/
+ @media(max-width: 600px){
+    .whatsapp-link{
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        bottom: 20px !important;
+        right: 20px !important;
+        background-color: #25d366;
+        color: #FFFFFF;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 1px 1px 2px #888;
+        z-index: 9900;
+        transform: scale(1);
+        animation: pulse 2s infinite;
+        }
+ }
+
+  @keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
+ .whatsapp-link{
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFFFFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 40px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 9900;
+    transform: scale(1);
+	animation: pulse 2s infinite;
+    }
+
+    .whatsapp-link:hover{
+        background-color: #fff;
+        color: #22D829;
+    }
+
+    #whatsapp{
+        position: relative;
+        bottom: -10px;
+  
+    }
+   
+   
 
 #rowMaster img {
     margin: 0 auto;
@@ -1229,4 +1318,11 @@ card {
     color: #000000;
 
 
+}
+.footer-dark{
+    width: 100% !important;
+    margin: 0;
+    background-color: #010D26;
+ 
+  
 }
