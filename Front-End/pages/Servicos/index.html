@@ -54,15 +54,15 @@
         </div>
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="../Home/index.html">Home<span class="sr-only">(Página
                   atual)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="../Sobre/index.html">Sobre</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../Sobre/index.html">Sobr3</a>
+            <li class="nav-item  active"">
+              <a class=" nav-link" href="../Servicos/index.html">Serviços</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="../Contato/index.html">Contato</a>
@@ -108,10 +108,53 @@
   <!-- Fim Navbar -->
   <main>
 
-    <section class="section-title">
-      <h1>Nossos Serviços</h1>
-    </section>
+    <div class="container-flex">
+      <section class="section-title">
+        <h1>Nossos Serviços</h1>
+      </section>
+      <section class="menu-lateral">
+        <ul>
+          <li class="cta">
+            <svg id="arrow-horizontal" xmlns="http://www.w3.org/2000/svg" width="30" height="10" viewBox="0 0 46 16">
+              <path id="Path_10" data-name="Path 10" d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z" fill="#fff" transform="translate(30)"></path>
+            </svg>
+            <a href="#venda" class="hover-underline-animation">Vendas de imóveis</a>
+          </li>
+          <li class="cta">
+            <svg id="arrow-horizontal" xmlns="http://www.w3.org/2000/svg" width="30" height="10" viewBox="0 0 46 16">
+              <path id="Path_10" data-name="Path 10" d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z" fill="#fff" transform="translate(30)"></path>
+            </svg>
+            <a href="#regula" class="hover-underline-animation">Regularização de imóveis</a>
+          </li>
+          <li class="cta">
+            <svg id="arrow-horizontal" xmlns="http://www.w3.org/2000/svg" width="30" height="10" viewBox="0 0 46 16">
+              <path id="Path_10" data-name="Path 10" d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z" fill="#fff" transform="translate(30)"></path>
+            </svg>
+            <a href="#habite" class="hover-underline-animation">Habite-se</a>
+          </li>
+          <li class="cta">
+            <svg id="arrow-horizontal" xmlns="http://www.w3.org/2000/svg" width="30" height="10" viewBox="0 0 46 16">
+              <path id="Path_10" data-name="Path 10" d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z" fill="#fff" transform="translate(30)"></path>
+            </svg>
+            <a href="#inventario" class="hover-underline-animation">Inventário</a>
+          </li>
+          <li class="cta">
+            <svg id="arrow-horizontal" xmlns="http://www.w3.org/2000/svg" width="30" height="10" viewBox="0 0 46 16">
+              <path id="Path_10" data-name="Path 10" d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z" fill="#fff" transform="translate(30)"></path>
+            </svg>
+            <a href="#assessoria" class="hover-underline-animation">Assessoria jurídica</a>
+          </li>
+          <li class="cta">
+            <svg id="arrow-horizontal" xmlns="http://www.w3.org/2000/svg" width="30" height="10" viewBox="0 0 46 16">
+              <path id="Path_10" data-name="Path 10" d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z" fill="#fff" transform="translate(30)"></path>
+            </svg>
+            <a href="#aluguel" class="hover-underline-animation">Aluguel de imóveis</a>
+          </li>
+        </ul>
+      </section>
+    </div>
     <section class="section-servicos">
+      <a name="aluguel"></a>
       <article class="article-container">
         <div class="article-item">
           <h1>Aluguel de imóveis</h1>
@@ -132,6 +175,7 @@
           <img src="./images/aluguel 1.svg" alt="aluguel">
         </div>
       </article>
+      <a name="assessoria"></a>
       <article class="article-container">
         <div class="article-img">
           <img src="./images/juridc 1.svg" alt="">
@@ -152,7 +196,8 @@
             necessárias que possam evitá-la</p>
         </div>
       </article>
-      <article class="article-container">
+      <a name="inventario"></a>
+      <article class=" article-container">
         <div class="article-item">
           <h1>Inventário</h1>
           <p>O <span>inventário</span> é um procedimento jurídico que
@@ -174,7 +219,7 @@
           <img src="./images/inventario 1.svg" alt="">
         </div>
       </article>
-
+      <a name="habite"></a>
       <article class="article-container">
         <div class="article-img">
           <img src="./images/home 1.svg" alt="">
@@ -202,6 +247,7 @@
             o Código de Obras.</p>
         </div>
       </article>
+      <a name="regula"></a>
       <article class="article-container">
         <div class="article-item">
           <h1>Regularização de Imóveis</h1>
@@ -225,6 +271,7 @@
       <article class="article-container">
         <div class="article-img">
           <img src="./images/venda 1.svg" alt="">
+          <a name="venda"></a>
         </div>
         <div class="article-item">
           <h1>Venda de Imóveis</h1>
@@ -243,21 +290,7 @@
         </div>
       </article>
     </section>
-    <section class="menu-lateral">
-      <ul>
-        <li>Vendas de imóveis
-        </li>
-        <li>Administração de imóveis
-        </li>
-        <li>Regularização de imóveis</li>
-        <li>Habite-se</li>
-        <li>Inventário</li>
-        <li>Assessoria jurídica
-        </li>
-        <li>Aluguel de imóveis
-        </li>
-      </ul>
-    </section>
+
 
     <!-- Whatsapp-->
     <a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=5561996511007&text=Olá" target="_blank">

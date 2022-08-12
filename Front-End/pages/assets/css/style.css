@@ -10,8 +10,8 @@ body p {
   font-weight: 300;
 }
 body a {
-  font-family: "Roboto" !important;
-  font-weight: 700 !important;
+  font-family: "Roboto";
+  font-weight: 700;
 }
 body h1,
 h2,
@@ -78,7 +78,7 @@ body {
 }
 
 #banner {
-  margin-top: 0;
+  margin-top: 0 !important;
   background-image: url("../images/BANNER\ SITE.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -88,7 +88,7 @@ body {
 }
 
 #banner2 {
-  margin-top: 0;
+  margin-top: 0 !important;
   background-image: url("../images/BANNER\ SITE.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -97,7 +97,7 @@ body {
 }
 
 #banner3 {
-  margin-top: 0;
+  margin-top: 0 !important;
   background-image: url("../images/BANNER\ SITE.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -106,7 +106,7 @@ body {
 }
 
 #banner4 {
-  margin-top: 0;
+  margin-top: 0 !important;
   background-image: url("../images/BANNER\ SITE.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -1116,15 +1116,23 @@ card {
 /* Sobre */
 
 @media (max-width: 600px) {
+  .container {
+    width: 100vw;
+
+    padding: 0 !important;
+  }
   #row1 {
     width: 100%;
+    margin: 0 auto;
     margin-top: 180px;
+    gap: 0px !important;
   }
 
   #row1 div {
-    width: 120px !important;
-    height: 140px !important;
-    margin: 10px !important;
+    margin: 0 10px;
+    width: 110px !important;
+    height: 120px !important;
+    padding: 0px !important;
   }
   #row1 img {
     margin-top: 0;
@@ -1134,7 +1142,9 @@ card {
     width: 70px !important;
   }
   #row1 h2 {
-    margin-bottom: 10px !important;
+    align-items: center;
+    font-size: 18px !important;
+    margin: 10px auto;
   }
 
   #colsobre {
@@ -1171,8 +1181,10 @@ card {
 }
 
 #row2 {
-  margin-top: 180px;
+  width: 100vw;
+  margin-top: 80px;
   margin-bottom: 80px;
+  margin-left: 10px;
 }
 
 #row2 h2 {
