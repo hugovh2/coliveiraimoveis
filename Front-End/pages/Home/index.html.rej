@@ -1,0 +1,401 @@
+diff a/Front-End/pages/Home/index.html b/Front-End/pages/Home/index.html	(rejected hunks)
+@@ -7,188 +7,252 @@
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- CSS -->
+     <link rel="stylesheet" href="../assets/css/style.css">
+-    <!-- fim CSS -->
++    <link rel="stylesheet" href="../assets/css/style.css">
++    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
++    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
++        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+     <!-- ionicons -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css"
+         rel="stylesheet">
+-    <!-- fim ionicons -->
+-
++    <!-- Bootstrap -->
++    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
++        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <!-- JavaScript -->
+-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"
+-        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+-        crossorigin="anonymous"></script>
+-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+-        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
++    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
++        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+         crossorigin="anonymous"></script>
+     <!-- fim JavaScript -->
+ 
+     <!-- Title -->
+     <title>Home</title>
+-    <!--Bottstrap -->
+ 
+ </head>
+ 
+-<body>
+-    <!-- Navbar -->
+-    <nav>
+-        <div class="nav-wrapper white">
+-            <div class="container">
+-                <img src="../assets/images/LOGO.svg" class="brand-logo">
+-                <ul class="right hide-on-med-and-down">
+-                    <li><a href="#" class="btn">Início</a></li>
+-                    <li><a href="#">SOBRE</a></li>
+-                    <li><a href="#">CONTATO</a></li>
++<!-- Navbar -->
++<div class="container" id="nav-container">
++    <nav class="navbar navbar-custom navbar-expand-lg navbar-light">
++        <a class="navbar-brand" href="#">
++            <img src="../assets/images/LOGO.svg" width="260" height="290" class="d-inline-block align-top" alt="">
++        </a>
++        <div class="collapse navbar-collapse justify-content-end" id="nav-layout">
++            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
++                aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
++                <span class="navbar-toggler-icon"></span>
++            </button>
++            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
++                <ul class="navbar-nav">
++                    <li class="nav-item active">
++
++                        <a class="nav-link" href="../Home/index.html">Home<span class="sr-only">(Página
++                                atual)</span></a>
++                    </li>
++                    <li class="nav-item">
++                        <a class="nav-link" href="../Sobre/index.html">Sobre</a>
++                    </li>
++                    <li class="nav-item">
++                        <a class="nav-link" href="../Contato/index.html">Contato</a>
++                    </li>
+                 </ul>
+             </div>
+         </div>
+     </nav>
++</div>
+ 
+-    <!-- Banner -->
+-    <div class="row">
+-        <div class="col s12" id="banner">
+-            <div class="container">
+-                <h2 class="white-text">Título</h2>
+-                <p class="white-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br>
+-                    Velit officia consequat duis enim velit mollit.<br>
+-                    Exercitation veniam consequat sunt nostrud amet.
+-                </p>
++<!-- Banner -->
++<div class="row">
++    <div class="col s12" id="banner">
++        <div class="container">
++            <div class="Slides fade s-none" id="fundoForm">
++                <!-- <img src=""> -->
+             </div>
+         </div>
+     </div>
++</div>
+ 
+-    <!--Card images-->
+-    <section class="grid-1">
+-        <div class="col1"></div>
+-        <div class="col2"></div>
+-        <div class="col3"></div>
+-        <div class="col4"></div>
+-    </section>
+-
+-    <div class='row'>
+-        <!-- <div class='col-3'>
+-            <div class="registration-form">
+-                <form>
+-                    <div class="form-icon">
+-                        <span><i class="icon icon-user"></i></span>
+-                    </div>
+-                    <h3 class="text-center">Envie uma mensagem para nós</h3>
+-                    <p>Preencha as informações básicas abaixo para que possamos entrar em contato com a melhor
+-                        solução para o seu sonho!
+-                    </p>
+-                    <div class="form-group">
+-                        <input type="text" class="form-control item" id="username" placeholder="Usuario">
+-                    </div>
+-                    <div class="form-group">
+-                        <input type="text" class="form-control item" id="email" placeholder="Email">
+-                    </div>
+-                    <div class="form-group">
+-                        <input type="text" class="form-control item" id="phone-number" placeholder="Telefone">
+-                    </div>
+-                    <div class="form-group">
+-                        <button type="button" class="btn btn-block create-account">Enviar</button>
+-                    </div>
+-                </form>
+-            </div>
+-        </div> -->
++<!-- <div class="slideshow-container">
+ 
+-        <div class='col-6'>
+-            <div class="registration-form">
+-                <form>
+-                    <div class="form-icon">
+-                        <span><i class="icon icon-user"></i></span>
+-                    </div>
+-                    <h3 class="text-center">Envie uma mensagem para nós</h3>
+-                    <p>Preencha as informações básicas abaixo para que possamos entrar em contato com a melhor
+-                        solução para o seu sonho!
+-                    </p>
+-                    <div class="form-group">
+-                        <input type="text" class="form-control item" id="username" placeholder="Usuario">
+-                    </div>
+-                    <div class="form-group">
+-                        <input type="text" class="form-control item" id="email" placeholder="Email">
+-                    </div>
+-                    <div class="form-group">
+-                        <input type="text" class="form-control item" id="phone-number" placeholder="Telefone">
+-                    </div>
+-                    <div class="form-group">
+-                        <button type="button" class="btn btn-block create-account">Enviar</button>
+-                    </div>
+-                </form>
+-            </div>
++        <div class="Slides fade s-none" id="banner">
++            <img src="../images/img banner.jpg">
+         </div>
+-        <div class='col-3'>
+-            <div class="registration-form">
+-                <form>
+-                    <div class="form-icon">
+-                        <span><i class="icon icon-compass"></i></span>
+-                    </div>
+-                    <h1 class="text-center">Visite-nos</h1>
+-                    <div class="map">
+-                        <iframe
+-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15339.616150676631!2d-48.0656846!3d-16.0185102!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x340a250cf9255811!2sEdif%C3%ADcio%20Central!5e0!3m2!1spt-BR!2sbr!4v1657755802921!5m2!1spt-BR!2sbr"
+-                            width="359" height="344.14" style="border:0;" allowfullscreen="" loading="lazy"
+-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+-                        <p>Endereço: Asa Norte -DF Rua ksjaksj Quadra sdokfosdkfsd</p>
+-                        <p>Telefone:(61) 9999-9999</p>
+-                        <p>Email: askhakshakhkdhaksha@gmail.com</p>
+-                    </div>
+-                </form>
+-            </div>
++
++        <div class="Slides fade s-none" id="fundoForm">
++            <img src="">
++        </div>
++
++        <div class="Slides fade" id="fundoForm">
++            <img src="../images/img fundoazul.jpg">
++        </div>
++
++
++    </div> -->
++<div class="dotcentro">
++    <span class="dot active" onclick="currentSlide(1)"></span>
++    <span class="dot" onclick="currentSlide(2)"></span>
++    <span class="dot" onclick="currentSlide(3)"></span>
++</div>
++
++
++<!-- <div class="carousel-item" id="banner ">
++        <img src="..." alt="...">
++        <div class="carousel-caption d-none d-md-block">
++            <h2 class="white-text">Título</h2>
++            <p class="white-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br>
++                Velit officia consequat duis enim velit mollit.<br>
++                Exercitation veniam consequat sunt nostrud amet.
++            </p>
++        </div>
++      </div> -->
++<!-- Fim Banner -->
++
++<!--Card images-->
++<section class="grid-1">
++    <div class="col1"></div>
++    <div class="col2"></div>
++    <div class="col3"></div>
++    <div class="col4"></div>
++</section>
++
++<!-- incio card Formulario -->
++<div class='row' id="fundoForm">
++    <div class='col-md-7'>
++        <div class="registration-form">
++            <form>
++                <div class="form-icon">
++                    <span><i class="icon icon-user"></i></span>
++                </div>
++                <h3 class="text-center">Envie uma mensagem para nós</h3>
++                <p>Preencha as informações básicas abaixo para que possamos entrar em contato com a melhor
++                    solução para o seu sonho!
++                </p>
++                <div class="form-group">
++                    <input type="text" class="form-control item" id="username" placeholder="Usuario">
++                </div>
++                <div class="form-group">
++                    <input type="text" class="form-control item" id="email" placeholder="Email">
++                </div>
++                <div class="form-group">
++                    <input type="text" class="form-control item" id="phone-number" placeholder="Telefone">
++                </div>
++                <div class="form-group">
++                    <button type="button" class="btn btn-block create-account">Enviar</button>
++                </div>
++            </form>
+         </div>
+     </div>
+-    <!-- Fim card Formulario -->
+-
+-    <div class='row'>
+-        <div class='col-3'>
+-            <div class="card-form">
+-                <form>
+-                    <h3>“Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.”</h3>
+-                   
+-                </form>
+-            </div>
++    <div class='col-md-3'>
++        <div class="registration-form">
++            <form>
++                <div class="form-icon">
++                    <span><i class="icon icon-compass"></i></span>
++                </div>
++                <h1 class="text-center">Visite-nos</h1>
++                <div class="map">
++                    <iframe
++                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15339.616150676631!2d-48.0656846!3d-16.0185102!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x340a250cf9255811!2sEdif%C3%ADcio%20Central!5e0!3m2!1spt-BR!2sbr!4v1657755802921!5m2!1spt-BR!2sbr"
++                        width="359" height="344.14" style="border:0;" allowfullscreen="" loading="lazy"
++                        referrerpolicy="no-referrer-when-downgrade"></iframe>
++                    <b>Endereço:</b>
++                    <p>Asa Norte -DF Rua ksjaksj Quadra sdokfosdkfsd</p>
++                    <b>Telefone:</b>
++                    <p>(61) 9999-9999</p>
++                    <b>Email:</b>
++                    <p> coliveira@gmail.com</p>
++                </div>
++            </form>
+         </div>
++    </div>
++</div>
++<!-- Fim card Formulario -->
+ 
+-        <div class='col-6'>
+-            <div class="card-form">
+-                <form>
+-                   
+-                </form>
+-            </div>
++<div class='row' id="fundoAzul">
++    <div class='col-md-3'>
++        <div class="card-form">
++            <!-- <img src="../assets/images/quote 2.jpg"> -->
++            <form>
++                <!-- <img src="../assets/images/Person1.jpg"> -->
++                <h1 class="text-center">Felipe </h1>
++                <p>“Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint”</p>
++            </form>
+         </div>
+-        <div class='col-3'>
+-            <div class="card-form">
+-                <form>
+-                  
+-                </form>
++    </div>
++    <div class='col-md-6'>
++        <div class="card-form">
++            <form>
++                <!-- <img src="../assets/images/Person2.jpg"> -->
++                <h1 class="text-center">Leticia</h1>
++                <p>“Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint”</p>
++            </form>
++        </div>
++    </div>
++    
++        <!-- <div class="col-xl-3 col-sm-6 mb-5">
++            <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootstrapious.com/i/snippets/sn-team/teacher-4.jpg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
++                <h5 class="mb-0">Manuella Nevoresky</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
++                <ul class="social mb-0 list-inline mt-3">
++                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
++                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
++                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
++                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
++                </ul>
+             </div>
++        </div> -->
++    <div class='col-md-3'>
++        <div class="card-form">
++            <form>
++                <!-- <img src="../assets/images/Person3.jpg"> -->
++                <h1 class="text-center">Marcos</h1>
++                <p>“Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint”</p>
++            </form>
+         </div>
+     </div>
++</div>
+ 
+-    
+ 
+-    <!--Nossa Proposta-->
+-    <!-- <div class="teste">
+-        <div class="row" id="teste1">
+-            <p>teste</p>
+-        </div>
+-        <div class="itens">
+-            <p>TESTE</p>
+-        </div>
+-        <div class="row" id="teste2">
+-            <p>teste</p>
++
++<!--Footer-->
++<div class="footer-dark ">
++    <footer>
++        <div class="container ">
++            <div class="row">
++                <div class="col-sm-6 col-md-3 item">
++                    <ul>
++                        <li>
++                            <a class="align-top" href="#">
++                                <img src="../assets/images/Logo footer.svg" width="160" height="190"
++                                    class="d-inline-block align-top" alt="">
++                            </a>
++                        </li>
++                    </ul>
++                </div>
++                <div class="col-sm-6 col-md-3 item">
++                    <h3>Localização</h3>
++                    <ul>
++                        <p>Edifício central sala 112 setor central do Gama</p>
++                    </ul>
++                </div>
++                <div class="col-md-6 item text">
++                    <h3>Sobre nós</h3>
++                    <p>Amet minim mollit non deserunt
++                        ullamco est sit aliqua dolor do amet
++                        sint. Velit officia consequat duis
++                        enim velit mollit. Exercitation veniam
++                        consequat sunt nostrud amet.</p>
++                </div>
++                <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i
++                            class="icon ion-social-linkedin"></i></a><a href="#"><i
++                            class="icon ion-social-instagram"></i></a></div>
++            </div>
++            <p class="copyright">C OLIVEIRA empreendimentos imobiliários Ltda © 2022</p>
+         </div>
+-    </div> -->
++    </footer>
++    </body>
+ 
+-</body>
++    <script>
+ 
+-<script>
+-    $(document).ready(function () {
+-        $('#phone-number').mask("(99) 99999-9999");
+-    })
+-</script>
+-<script xasync defer src="https://maps.googleapis.com/maps/api/js?key=SUA_CHAVE_API_DO_GOOGLE&callback=inicializar">
+-</script>
++    </script>
++    <script xasync defer src="https://maps.googleapis.com/maps/api/js?key=SUA_CHAVE_API_DO_GOOGLE&callback=inicializar">
++    </script>
+ 
+-</html>
++</html>
+\ No newline at end of file
