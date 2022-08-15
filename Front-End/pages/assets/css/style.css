@@ -1115,6 +1115,17 @@ card {
 
 /* Sobre */
 
+#row2 {
+  max-width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#row2 img {
+  width: 520px;
+  height: 400px;
+}
+
 @media (max-width: 600px) {
   .container {
     width: 100vw;
@@ -1148,7 +1159,7 @@ card {
   }
 
   #colsobre {
-    width: 100%;
+    width: 100vw;
   }
   #colsobre img {
     max-width: 320px !important;
