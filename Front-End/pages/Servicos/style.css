@@ -93,6 +93,37 @@ article h1 {
   width: 534px;
   height: 415px;
 }
+.article-item h2 {
+  font-size: 26px;
+  color: #082e60;
+  font-weight: 600;
+}
+
+.article-item a {
+  background-color: #25d366;
+  border: solid 1px;
+  border-color: #25d366;
+  box-shadow: 1px;
+  text-decoration: none;
+  border-radius: 12px;
+  padding: 15px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.article-item a:hover {
+  text-decoration: none;
+  background-color: #fff;
+  color: #22d829;
+}
+.center {
+  margin-top: 0 30px !important;
+  text-align: center;
+}
+#whatsappbtn {
+  font-size: 24px;
+  margin: 0 10px;
+}
 
 .cta {
   border: none;

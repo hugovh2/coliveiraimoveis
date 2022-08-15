@@ -482,7 +482,10 @@ card {
 /*Fim card de contato/Localidade*/
 
 /*Footer*/
+.row {
+}
 .footer-dark {
+  width: 100vw !important;
   padding: 50px 0;
   color: #f0f9ff;
   background-color: #010d26;

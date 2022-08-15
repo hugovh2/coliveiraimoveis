@@ -1,12 +1,13 @@
 body {
-  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   color: #999;
   line-height: 2;
   /* background-color: #143373; */
   /* background-image: -o-linear-gradient(330deg, #143373 0%, #123C73 100%);
   background-image: linear-gradient(120deg, #143373 0%, #123C73 100%); */
 }
-
 
 /* Navbar*/
 
@@ -27,9 +28,9 @@ h6,
 }
 
 a {
-  -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
-  transition: .3s all ease;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
 }
 
 a,
@@ -42,11 +43,11 @@ a:hover {
 }
 
 .content {
-  padding-top:8rem;
+  padding-top: 8rem;
   padding-bottom: 0;
-  
+  width: 100vw;
 }
-.container{
+.container {
   margin-bottom: 70px;
 }
 
@@ -65,10 +66,9 @@ h3 {
   border: 1px solid #d9d9d9;
   border-radius: 4px;
 }
-#contForm{
+#contForm {
   margin-top: 0;
   background-color: #143373;
-
 }
 .form-control:active,
 .form-control:focus {
@@ -81,6 +81,9 @@ h3 {
 .col-form-label {
   color: #000;
 }
+.active a {
+  height: 76px !important;
+}
 
 .btn,
 .form-control {
@@ -89,7 +92,7 @@ h3 {
 
 .heading {
   color: #888;
-  letter-spacing: .05rem;
+  letter-spacing: 0.05rem;
   text-transform: uppercase;
   font-weight: 400;
 }
@@ -142,11 +145,11 @@ label.error {
 }
 
 #form-message-warning {
-  color: #B90B0B;
+  color: #b90b0b;
 }
 
 #form-message-success {
-  color: #55A44E;
+  color: #55a44e;
   font-size: 18px;
   font-weight: bold;
   text-align: center;
