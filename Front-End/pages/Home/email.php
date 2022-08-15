@@ -1,48 +1,48 @@
 <?php
-use PHPMailer\PHPMailer\PHPMailer;
-require 'vendor/autoload.php';
-    $mail = new PHPMailer;
-    $mail->isSMTP();
-    $mail->Host = 'smtp.hostinger.com';
-    $mail->Port = 587;
-    $mail->SMTPAuth = true;
-    $mail->Username = 'test@hostinger-tutorials.com';
-    $mail->Password = 'EMAIL_ACCOUNT_PASSWORD';
-    $mail->setFrom('test@hostinger-tutorials.com', 'Mr. Drago');
-    $mail->addAddress('exemplo@gmail.com', 'Nome do Destinatário');
-    if ($mail->addReplyTo($_POST['email'], $_POST['name'])) {
-        $mail->Subject = 'PHPMailer contact form';
-        $mail->isHTML(false);
-        $mail->Body = <<<EOT
-Email: {$_POST['email']}
-Name: {$_POST['name']}
-Message: {$_POST['message']}
-EOT;
-        if (!$mail->send()) {
-            $msg = 'Sorry, something went wrong. Please try again later.';
-        } else {
-            $msg = 'Message sent! Thanks for contacting us.';
-        }
-    } else {
-        $msg = 'Share it with us!';
-    }
+ini_set('default_charset','UTF-8');
+
+$to = 'coliveiraimobiliaria@gmail.com';
+
+
+function url(){
+  return sprintf(
+    "%s://%s",
+    isset($_SERVER['smtp.hostinger.com']) && $_SERVER['smtp.hostinger.com'] != 'off' ? 'https' : 'http',
+    $_SERVER['smtp.hostinger.com']
+  );
+}
+
+if($_POST) {
+
+   $name = trim(stripslashes($_POST['name']));
+   $email = trim(stripslashes($_POST['email']));
+   $subject = trim(stripslashes($_POST['subject']));
+   $contact_message = trim(stripslashes($_POST['message']));
+   
+	if ($subject == '') { $subject = "C OLIVEIRA Formulário de contato"; }
+
+   // Set Message
+   $message .= "E-mail de:" . $name . "<br />";
+	 $message .= "Endereço de email: " . $email . "<br />";
+   $message .= "Mensagem: <br />";
+   $message .= nl2br($contact_message);
+   $message .= "<br /> ----- <br /> Este e-mail foi enviado do seu site " . url() . " Formulário de Contato. <br />";
+
+   // Set From: header
+   $from =  $name . " <" . $email . ">";
+
+   // Email Headers
+	$headers = "From: " . $from . "\r\n";
+	$headers .= "Reply-To: ". $email . "\r\n";
+ 	$headers .= "MIME-Version: 1.0\r\n";
+	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+
+   ini_set("sendmail_from", $to); 
+   $mail = mail($to, $subject, $message, $headers);
+
+	if ($mail) { echo "OK"; }
+   else { echo "Algo deu errado. Por favor, tente novamente."; }
+
+}
+// dd($_POST);
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Contact form</title>
-</head>
-<body>
-<h1>Do You Have Anything in Mind?</h1>
-<?php if (!empty($msg)) {
-    echo "<h2>$msg</h2>";
-} ?>
-<form method="POST">
-    <label for="name">Name: <input type="text" name="name" id="name"></label><br><br>
-    <label for="email">Email: <input type="email" name="email" id="email"></label><br><br>   
-    <label for="message">Message: <textarea name="message" id="message" rows="8" cols="20"></textarea></label><br><br>
-    <input type="submit" value="Send">
-</form>
-</body>
-</html>
