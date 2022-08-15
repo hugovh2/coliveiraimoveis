@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Roboto:wght@300;400;700&display=swap");
+
+main h1,
+h2 {
+  font-family: "Nunito", sans-serif !important;
+}
+main p {
+  letter-spacing: 0.015em;
+  line-height: 30px;
+  font-weight: 400 !important;
+  color: #000e21 !important;
+  font-family: "Roboto", sans-serif;
+}
+main {
+  margin-top: 50px;
+}
+article h1 {
+  color: #082e60;
+}
+.container-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+}
+.section-title {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px;
+  max-width: 600px;
+  background-image: url(./images/inicio.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.section-title h1 {
+  color: #fff;
+  font-family: "Nunito" !important;
+  font-weight: 600 !important;
+}
+
+.menu-lateral li {
+  list-style: none;
+}
+.menu-lateral {
+  font-size: 24px;
+  color: #fff;
+  border-radius: 5px;
+  flex: 0 1 500px;
+  margin-left: 45px;
+  background-color: #4c7bb8;
+  padding: 30px;
+}
+.menu-lateral a {
+  font-family: "Nunito";
+  font-weight: 400 !important;
+  text-decoration: none;
+  list-style: none;
+}
+.menu-lateral a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.section-servicos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  margin-left: 45px;
+  margin-right: 75px;
+}
+
+.article-container {
+  margin-top: 150px;
+  justify-content: space-around;
+  display: flex;
+  gap: 30px;
+  max-width: 90vw;
+  flex-wrap: wrap;
+}
+.article-item {
+  flex: 1;
+  min-width: 350px;
+  margin: 0 10px;
+}
+.article-item span {
+  font-weight: 600;
+  color: #143373;
+}
+.article-img img {
+  flex: 1;
+  width: 534px;
+  height: 415px;
+}
+
+.cta {
+  border: none;
+  background: none;
+}
+
+.cta a {
+  padding-bottom: 7px;
+  letter-spacing: 4px;
+  font-size: 18px;
+  padding-right: 15px;
+  text-transform: uppercase;
+}
+
+.cta svg {
+  transform: translateX(-8px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active svg {
+  transform: scale(0.9);
+}
+
+.hover-underline-animation {
+  position: relative;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1.5px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.cta:hover .hover-underline-animation:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/*Responsivo*/
+@media (max-width: 600px) {
+  .menu-lateral {
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 45px;
+  }
+  .menu-lateral a {
+    font-size: 16px;
+  }
+  .section-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    max-width: 400px;
+    background-image: url(./images/inicio.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .section-title h1 {
+    font-size: 30px !important;
+  }
+  .article-img img {
+    width: 100vw;
+    height: 415px;
+  }
+  .section-servicos {
+    margin: 75px auto;
+  }
+  .article-container:nth-child(4n + 4) {
+    flex-direction: column-reverse;
+  }
+
+  .article-container {
+    margin-top: 0px;
+    width: 100vw;
+  }
+  .article-container h1,
+  p {
+    margin-left: 20px;
+  }
+  .article-item {
+    margin: 0 20px;
+  }
+}

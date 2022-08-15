@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serviços</title>
+</head>
+
+<body>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- ionicons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Title -->
+    <title>Home</title>
+
+  </head>
+  <!-- Navbar -->
+
+  <!-- Responsivo-->
+
+  <nav class="navbar navbar-dark navbar-expand-xsm bg-dark fixed-top" id="nav-mobile">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../Home/index.html">
+        <img src="../assets/images/ComLogo-SemImoveis.svg" width="220" height="90">
+      </a>
+      <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <a href="../Home/index.html">
+            <img src="../assets/images/ComLogo-SemImoveis.svg" class="logo-nav">
+          </a>
+          <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link" href="../Home/index.html">Home<span class="sr-only">(Página
+                  atual)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Sobre/index.html">Sobre</a>
+            </li>
+            <li class="nav-item  active"">
+              <a class=" nav-link" href="../Servicos/index.html">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Contato/index.html">Contato</a>
+            </li>
+          </ul>
+
+
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Fim Responsivo-->
+  <div class="row" id="nav-container">
+    <nav class="navbar navbar-custom navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">
+        <img src="../assets/images/ComLogo-SemImoveis.svg" width="240" height="90" class="d-inline-block align-top" alt="">
+      </a>
+      <div class="collapse navbar-collapse justify-content-end" id="nav-layout">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="../Home/index.html">Home<span class="sr-only">(Página
+                  atual)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Sobre/index.html">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Servicos/index.html">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Contato/index.html">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Fim Navbar -->
+  <main>
+
+    <div class="container-flex">
+      <section class="section-title">
+        <h1>Nossos Serviços</h1>
+      </section>
+      <section class="menu-lateral">
+        <ul>
+          <li class="cta">
+            <svg id="arrow-horizontal" xmlns="http://www.w3.org/2000/svg" width="30" height="10" viewBox="0 0 46 16">
+              <path id="Path_10" data-name="Path 10" d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z" fill="#fff" transform="translate(30)"></path>
+            </svg>
+            <a href="#venda" class="hover-underline-animation">Vendas de imóveis</a>
+          </li>
+          <li class="cta">
+            <svg id="arrow-horizontal" xmlns="http://www.w3.org/2000/svg" width="30" height="10" viewBox="0 0 46 16">
+              <path id="Path_10" data-name="Path 10" d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z" fill="#fff" transform="translate(30)"></path>
+            </svg>
+            <a href="#regula" class="hover-underline-animation">Regularização de imóveis</a>
+          </li>
+          <li class="cta">
+            <svg id="arrow-horizontal" xmlns="http://www.w3.org/2000/svg" width="30" height="10" viewBox="0 0 46 16">
+              <path id="Path_10" data-name="Path 10" d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z" fill="#fff" transform="translate(30)"></path>
+            </svg>
+            <a href="#habite" class="hover-underline-animation">Habite-se</a>
+          </li>
+          <li class="cta">
+            <svg id="arrow-horizontal" xmlns="http://www.w3.org/2000/svg" width="30" height="10" viewBox="0 0 46 16">
+              <path id="Path_10" data-name="Path 10" d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z" fill="#fff" transform="translate(30)"></path>
+            </svg>
+            <a href="#inventario" class="hover-underline-animation">Inventário</a>
+          </li>
+          <li class="cta">
+            <svg id="arrow-horizontal" xmlns="http://www.w3.org/2000/svg" width="30" height="10" viewBox="0 0 46 16">
+              <path id="Path_10" data-name="Path 10" d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z" fill="#fff" transform="translate(30)"></path>
+            </svg>
+            <a href="#assessoria" class="hover-underline-animation">Assessoria jurídica</a>
+          </li>
+          <li class="cta">
+            <svg id="arrow-horizontal" xmlns="http://www.w3.org/2000/svg" width="30" height="10" viewBox="0 0 46 16">
+              <path id="Path_10" data-name="Path 10" d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z" fill="#fff" transform="translate(30)"></path>
+            </svg>
+            <a href="#aluguel" class="hover-underline-animation">Aluguel de imóveis</a>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <section class="section-servicos">
+      <a name="aluguel"></a>
+      <article class="article-container">
+        <div class="article-item">
+          <h1>Aluguel de imóveis</h1>
+          <p>Ao <span>alugar um imóvel</span> é necessário documentar a
+            negociação por meio de um contrato,
+            de preferência, escrito. O inquilino deve ler
+            atentamente todas as suas cláusulas, guardando
+            uma cópia junto com os recibos de pagamento
+            do aluguel e encargos. Entretanto, o contrato
+            também pode ser verbal. Mas é importante que
+            você possua meios de provar a locação. Isto pode
+            aluguel, contas de luz, testemunhas etc.
+
+            A lei que cuida dos aluguéis é a
+            Lei 8245 de 18 de outubro de 1991.</p>
+        </div>
+        <div class="article-img">
+          <img src="./images/aluguel 1.svg" alt="aluguel">
+        </div>
+      </article>
+      <a name="assessoria"></a>
+      <article class="article-container">
+        <div class="article-img">
+          <img src="./images/juridc 1.svg" alt="">
+        </div>
+        <div class="article-item">
+          <h1>Assessoria Jurídica</h1>
+          <p>A <span>assessoria jurídica</span> é serviço prestado por
+            advogados ou escritórios de advocacia e tem
+            como característica a atuação preventiva.
+            O objetivo da assessoria é buscar soluções com
+            respaldo legal evitando o litígio para o cliente.
+
+            Precisamos ter uma visão macro do problema
+            para conseguir enxergar as possíveis demandas
+            que serão ajuízadas, caso ele não seja evitado.
+            E, sabendo o que pode gerar uma ação judicial,
+            já aconselhamos o cliente a adotar as medidas
+            necessárias que possam evitá-la</p>
+        </div>
+      </article>
+      <a name="inventario"></a>
+      <article class=" article-container">
+        <div class="article-item">
+          <h1>Inventário</h1>
+          <p>O <span>inventário</span> é um procedimento jurídico que
+            tem como objetivo transferir a propriedade de
+            um ente falecido para os herdeiros. O processo
+            também pode ser aberto por credores de
+            possíveis dívidas deixadas em vida como uma
+            forma de buscar o patrimônio do falecido
+            para quitação.
+
+            A não realização do inventário não impede a
+            posse dos bens do falecido por parte de
+            herdeiros. Contudo, sem o procedimento, os
+            herdeiros não poderão ter propriedade do bem,
+            o que significa que não poderão vendê-lo,
+            por exemplo. </p>
+        </div>
+        <div class="article-img">
+          <img src="./images/inventario 1.svg" alt="">
+        </div>
+      </article>
+      <a name="habite"></a>
+      <article class="article-container">
+        <div class="article-img">
+          <img src="./images/home 1.svg" alt="">
+        </div>
+        <div class="article-item">
+          <h1>Habite-se</h1>
+          <p>Em regra, o proprietário do imóvel
+            (incorporadora, construtora ou pessoa física)
+            faz a requisição perante o órgão competente
+            da Prefeitura, a qual deve providenciar uma
+            vistoria no local, por intermédio de engenheiro
+            civil para constatar se a construção erguida
+            realmente reflete o projeto
+            aprovado inicialmente.
+
+            Tecnicamente chamado auto
+            de conclusão de obra ou na
+            linguagem popular: “<span>habite-se</span>”,
+            nada mais é do que uma certidão expedida
+            pela Prefeitura atestando que o imóvel
+            (casa ou prédio residencial ou comercial)
+            está pronto para ser habitado e foi construído
+            ou reformado conforme as exigências legais
+            estabelecidas pelo município, especialmente
+            o Código de Obras.</p>
+        </div>
+      </article>
+      <a name="regula"></a>
+      <article class="article-container">
+        <div class="article-item">
+          <h1>Regularização de Imóveis</h1>
+          <p>A <span>regularização</span> tira o imóvel da clandestinidade.
+            Se o imóvel estiver irregular, pode sofrer ação da
+            fiscalização a qualquer momento e ser multado
+            pela infração que está cometendo ou ainda ter o
+            seu negócio fechado. Uma vez regularizada a
+            edificação ou o uso instalado, o proprietário pode
+            registrar sua casa, ter legalizado o funcionamento
+            da atividade comercial, ter acesso a
+            financiamentos para reformar o imóvel ou
+            comercializá-lo. Se estiver irregular, não é
+            possível registrá-lo no Cartório de
+            Registro de Imóveis.</p>
+        </div>
+        <div class="article-img">
+          <img src="./images/regularizacao 1.svg" alt="">
+        </div>
+      </article>
+      <article class="article-container">
+        <div class="article-img">
+          <img src="./images/venda 1.svg" alt="">
+          <a name="venda"></a>
+        </div>
+        <div class="article-item">
+          <h1>Venda de Imóveis</h1>
+          <p>As <span>negociações</span> de uma propriedade podem ser
+            complicadas para uma pessoa sem conhecimento
+            aprofundado sobre o assunto. Nesse sentido,
+            um dos pontos que costumam gerar mais dúvidas
+            é o contrato de compra e venda de imóvel.
+
+            Caso você esteja pensando em adquirir uma
+            propriedade ou negociar algo de sua posse,
+            é preciso estar ciente de todas as peculiaridades
+            desse documento tão importante. Vale lembrar
+            que ele é válido legalmente,
+            depois de lavrado em cartório.</p>
+        </div>
+      </article>
+    </section>
+
+
+    <!-- Whatsapp-->
+    <a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=5561996511007&text=Olá" target="_blank">
+      <i class="icon ion-social-whatsapp" id="whatsapp"></i>
+    </a>
+  </main>
+
+  <!--Footer-->
+  <div class="footer-dark ">
+    <footer>
+      <div class="container ">
+        <div class="row" id="footer-items">
+          <div class="col-sm-6 col-md-3 item">
+            <ul>
+              <li>
+                <a class="align-top" href="#">
+                  <img src="../assets/images/ComLogo-SemImoveis-Branca.svg" width="160" height="190" class="d-inline-block align-top" alt="">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-md-3 item">
+            <h3>Localização</h3>
+            <ul>
+              <p>Edifício central sala 112 setor central do Gama</p>
+            </ul>
+          </div>
+          <div class="col-md-6 item text">
+            <h3>Sobre nós</h3>
+            <p>A empresa C Oliveira Imoveis que tem como razão social C Oliveira Empreendimentos Imobiliarios Ltda foi fundada em 03/01/2018 e está cadastrada na Solutudo no segmento de Imobiliárias</p>
+          </div>
+          <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-linkedin"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+        </div>
+        <p class="copyright">C OLIVEIRA empreendimentos imobiliários Ltda © 2022</p>
+      </div>
+    </footer>
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- fim JavaScript -->
+    <script xasync defer src="https://maps.googleapis.com/maps/api/js?key=SUA_CHAVE_API_DO_GOOGLE&callback=inicializar">
+    </script>
+</body>
+
+</html>

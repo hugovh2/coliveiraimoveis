@@ -1,7 +1,8 @@
 <?php
+ini_set('default_charset','UTF-8');
 
-// Replace this with your own email address
-$to = 'coliveira@coliveiraimoveis.com';
+$to = 'coliveiraimobiliaria@gmail.com';
+
 
 function url(){
   return sprintf(
@@ -18,14 +19,14 @@ if($_POST) {
    $subject = trim(stripslashes($_POST['subject']));
    $contact_message = trim(stripslashes($_POST['message']));
    
-	if ($subject == '') { $subject = "Contact Form Submission"; }
+	if ($subject == '') { $subject = "C OLIVEIRA Formulário de contato"; }
 
    // Set Message
-   $message .= "Email from: " . $name . "<br />";
-	 $message .= "Email address: " . $email . "<br />";
-   $message .= "Message: <br />";
+   $message .= "E-mail de:" . $name . "<br />";
+	 $message .= "Endereço de email: " . $email . "<br />";
+   $message .= "Mensagem: <br />";
    $message .= nl2br($contact_message);
-   $message .= "<br /> ----- <br /> This email was sent from your site " . url() . " contact form. <br />";
+   $message .= "<br /> ----- <br /> Este e-mail foi enviado do seu site " . url() . " Formulário de Contato. <br />";
 
    // Set From: header
    $from =  $name . " <" . $email . ">";
@@ -36,11 +37,11 @@ if($_POST) {
  	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-   ini_set("sendmail_from", $to); // for windows server
+   ini_set("sendmail_from", $to); 
    $mail = mail($to, $subject, $message, $headers);
 
 	if ($mail) { echo "OK"; }
-   else { echo "Something went wrong. Please try again."; }
+   else { echo "Algo deu errado. Por favor, tente novamente."; }
 
 }
 // dd($_POST);
