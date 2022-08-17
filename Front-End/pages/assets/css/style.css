@@ -11,7 +11,7 @@ body p {
 }
 body a {
   font-family: "Roboto";
-  font-weight: 700;
+  font-weight: 300;
 }
 body h1,
 h2,
@@ -46,7 +46,7 @@ body {
   nav ul a {
     color: #000000;
     font-size: 24px !important;
-    font-weight: bold !important;
+    font-weight: 400 !important;
     margin-left: 15px;
   }
 
@@ -1114,25 +1114,45 @@ card {
     border-radius: 20%;
     box-shadow: rgba(0, 0, 0, 1) 0px 25px 20px -20px;
   }
+
+  .cont-flex img {
+    height: 210px !important;
+    width: 190px !important;
+  }
+  .cont-flex {
+    margin: 0 30px;
+  }
 }
 
 /* Sobre */
 
-#row2 {
-  max-width: 90vw;
+.center {
+  width: 50vw !important;
+  margin: 0 auto;
+}
+.center h2 {
+  margin: 45px 0;
+}
+.cont-flex {
+  width: 80vw;
+  max-width: 1250px !important;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flex-item {
+  margin-right: 20px;
+  flex: 1;
 }
 #row2 img {
-  width: 520px;
-  height: 400px;
+  height: 290px;
 }
 
 @media (max-width: 600px) {
   .container {
     width: 100vw;
-
     padding: 0 !important;
   }
   #row1 {
@@ -1202,8 +1222,13 @@ card {
 }
 
 #row2 h2 {
+  width: 80vw;
   font-weight: bold;
   text-align: center;
+}
+.row2 img {
+  height: 210px;
+  width: 190px;
 }
 
 /* Sobre nos */
@@ -1326,7 +1351,7 @@ card {
   /* Banner */
 
   #inner {
-    height: 550px;
+    height: 590px;
     margin-top: 45px;
   }
 
@@ -1336,7 +1361,7 @@ card {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 65vh;
+    height: 100vh;
     width: 100vw;
   }
 
@@ -1345,8 +1370,7 @@ card {
     background-image: url("../images/BANNER\ SITE.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
-    height: 65vh;
+    height: 100vh;
     width: 100vw;
   }
 
@@ -1356,7 +1380,7 @@ card {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 65vh;
+    height: 100vh;
     width: 100vw;
   }
 
@@ -1366,7 +1390,7 @@ card {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 65vh;
+    height: 100vh;
     width: 100vw;
   }
 

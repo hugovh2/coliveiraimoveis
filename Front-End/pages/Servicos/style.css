@@ -7,6 +7,7 @@ h2 {
 main p {
   letter-spacing: 0.015em;
   line-height: 30px;
+  font-size: 16px;
   font-weight: 400 !important;
   color: #000e21 !important;
   font-family: "Roboto", sans-serif;
@@ -94,35 +95,35 @@ article h1 {
   height: 415px;
 }
 .article-item h2 {
-  font-size: 26px;
-  color: #082e60;
+  font-size: 16px;
+  color: #143373;
+  font-family: "Roboto" !important;
   font-weight: 600;
 }
 
 .article-item a {
-  background-color: #25d366;
+  background-color: #143373;
   border: solid 1px;
-  border-color: #25d366;
+  border-color: #143373;
   box-shadow: 1px;
   text-decoration: none;
   border-radius: 12px;
-  padding: 15px;
+  padding: 8px;
   color: #fff;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .article-item a:hover {
   text-decoration: none;
   background-color: #fff;
-  color: #22d829;
+  color: #143373;
 }
 .center {
   margin-top: 0 30px !important;
   text-align: center;
 }
-#whatsappbtn {
-  font-size: 24px;
-  margin: 0 10px;
+.saibamais {
+  font-size: 18px !important;
 }
 
 .cta {
