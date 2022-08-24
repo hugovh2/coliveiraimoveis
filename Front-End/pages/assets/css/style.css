@@ -359,6 +359,22 @@ li {
   background-image: url(../images/imagem4p2.jpeg);
   background-size: cover;
 }
+#carousel__slide1-p3 {
+  background-image: url(../images/imagem1-p3.jpeg);
+  background-size: cover;
+}
+#carousel__slide2-p3 {
+  background-image: url(../images/imagem2-p3.jpeg);
+  background-size: cover;
+}
+#carousel__slide3-p3 {
+  background-image: url(../images/imagem3-p3.jpeg);
+  background-size: cover;
+}
+#carousel__slide4-p3 {
+  background-image: url(../images/imagem4-p3.jpeg);
+  background-size: cover;
+}
 
 .carousel__snapper {
   position: absolute;
@@ -587,7 +603,25 @@ li {
     text-align: center;
     color: #434346;
 } */
-
+.p4 {
+  width: 260px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.p4 h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.p4 h3 {
+  text-align: center;
+}
+.mrv {
+  margin-left: 15px;
+}
+.mrv img {
+  height: 120px;
+  width: 120px;
+}
 card {
   box-sizing: border-box;
   position: absolute;
