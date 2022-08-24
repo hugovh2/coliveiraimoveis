@@ -1,18 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Roboto:wght@300;400;700&display=swap");
+
 html {
   margin: 0% !important;
   height: 100% !important;
 }
+
 /* Fonte */
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;700;600&display=swap");
+
 body p {
   font-family: "Roboto", sans-serif !important;
   font-weight: 300;
 }
+
 body a {
   font-family: "Roboto";
   font-weight: 300;
 }
+
 body h1,
 h2,
 h3,
@@ -21,6 +26,7 @@ h4 {
   font-weight: 600;
   text-transform: uppercase;
 }
+
 body {
   padding-top: 40px;
 }
@@ -66,10 +72,12 @@ body {
     opacity: 1;
     background-color: #010d26;
   }
+
   .navbar-brand {
     margin-left: 50px;
   }
 }
+
 /* Banner */
 
 #inner {
@@ -190,17 +198,21 @@ h2 {
   height: 260px;
   border-radius: 12px;
 }
+
 /*slide*/
 @keyframes tonext {
   75% {
     left: 0;
   }
+
   95% {
     left: 100%;
   }
+
   98% {
     left: 100%;
   }
+
   99% {
     left: 0;
   }
@@ -210,12 +222,15 @@ h2 {
   75% {
     left: 0;
   }
+
   95% {
     left: -300%;
   }
+
   98% {
     left: -300%;
   }
+
   99% {
     left: 0;
   }
@@ -225,19 +240,24 @@ h2 {
   96% {
     scroll-snap-align: center;
   }
+
   97% {
     scroll-snap-align: none;
   }
+
   99% {
     scroll-snap-align: none;
   }
+
   100% {
     scroll-snap-align: center;
   }
 }
+
 * {
   box-sizing: border-box;
-  scrollbar-color: transparent transparent; /* thumb and track color */
+  scrollbar-color: transparent transparent;
+  /* thumb and track color */
   scrollbar-width: 0px;
 }
 
@@ -299,34 +319,42 @@ li {
 .carousel__slide:nth-child(even) {
   background-color: #99f;
 }
+
 #carousel__slide1-p1 {
   background-image: url(../images/imagem7.jpeg);
   background-size: cover;
 }
+
 #carousel__slide2-p1 {
   background-image: url(../images/imagem6.jpeg);
   background-size: cover;
 }
+
 #carousel__slide3-p1 {
   background-image: url(../images/imagem1.jpeg);
   background-size: cover;
 }
+
 #carousel__slide4-p1 {
   background-image: url(../images/imagem2.jpeg);
   background-size: cover;
 }
+
 #carousel__slide1-p2 {
   background-image: url(../images/imagem1p2.jpeg);
   background-size: cover;
 }
+
 #carousel__slide2-p2 {
   background-image: url(../images/imagem2p2.jpeg);
   background-size: cover;
 }
+
 #carousel__slide3-p2 {
   background-image: url(../images/imagem3p2.jpeg);
   background-size: cover;
 }
+
 #carousel__slide4-p2 {
   background-image: url(../images/imagem4p2.jpeg);
   background-size: cover;
@@ -406,6 +434,7 @@ li {
   font-size: 0;
   outline: 0;
 }
+
 .slide-btn {
   text-decoration: none;
   list-style: none;
@@ -422,6 +451,7 @@ li {
   border-radius: 0 0 10px 10px;
   height: 40px;
 }
+
 .slide-btn:hover {
   text-decoration: none;
   list-style: none;
@@ -429,6 +459,7 @@ li {
   color: #f0b939;
   background: #fff;
 }
+
 .slide-btn2 {
   text-decoration: none;
   list-style: none;
@@ -445,6 +476,7 @@ li {
   border-radius: 0 0 10px 10px;
   height: 40px;
 }
+
 .slide-btn2:hover {
   text-decoration: none;
   list-style: none;
@@ -452,19 +484,23 @@ li {
   color: #0697cc;
   background: #fff;
 }
+
 .col-bg {
   background-color: #e1ebf4;
   padding-bottom: 680px;
 }
+
 .col-bg h3 {
   margin: 10px;
   font-size: 18px;
   font-weight: bold;
 }
+
 .col-bg h4 {
   margin: 10px;
   font-size: 18px;
 }
+
 .col-bg span {
   margin: 10px 10px 5px 10px;
 }
@@ -472,10 +508,12 @@ li {
 .col-bg p {
   margin: 0 15px;
 }
+
 .titulo-card {
   margin-top: 35px;
   text-align: center;
 }
+
 #flutuante {
   font-family: "Nunito";
   font-weight: 700;
@@ -489,11 +527,13 @@ li {
   border-color: #f0b939;
   border-radius: 3px;
 }
+
 .linha2 {
   border-bottom: solid 4px;
   border-color: #0697cc;
   border-radius: 3px;
 }
+
 .card-body {
   position: relative;
   margin-top: 200px;
@@ -513,11 +553,9 @@ li {
   width: 360px;
   text-align: center;
   height: 45.23px;
-  background: linear-gradient(
-      0deg,
+  background: linear-gradient(0deg,
       rgba(18, 60, 115, 0.06),
-      rgba(18, 60, 115, 0.06)
-    ),
+      rgba(18, 60, 115, 0.06)),
     #22d829;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
@@ -635,11 +673,9 @@ card {
 .registration-form .create-account {
   width: 370px;
   height: 45.23px;
-  background: linear-gradient(
-      0deg,
+  background: linear-gradient(0deg,
       rgba(18, 60, 115, 0.06),
-      rgba(18, 60, 115, 0.06)
-    ),
+      rgba(18, 60, 115, 0.06)),
     #123c73;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
@@ -763,8 +799,8 @@ card {
 /*Fim card de contato/Localidade*/
 
 /*Footer*/
-.row {
-}
+.row {}
+
 .footer-dark {
   width: 100vw !important;
   padding: 50px 0;
@@ -834,7 +870,7 @@ card {
   }
 }
 
-.footer-dark .item.social > a {
+.footer-dark .item.social>a {
   font-size: 20px;
   width: 36px;
   height: 36px;
@@ -848,7 +884,7 @@ card {
   opacity: 0.75;
 }
 
-.footer-dark .item.social > a:hover {
+.footer-dark .item.social>a:hover {
   opacity: 0.9;
 }
 
@@ -928,6 +964,7 @@ card {
   width: 100vw !important;
   margin: 0 !important;
 }
+
 #row-home {
   margin-top: 180px;
   margin-bottom: 60px;
@@ -1051,10 +1088,12 @@ card {
   border-radius: 12px;
   text-align: center;
 }
+
 @media (min-width: 600px) {
   #carouselmobile {
     display: none;
   }
+
   #nav-mobile {
     display: none;
   }
@@ -1142,6 +1181,7 @@ card {
     padding: 0;
     background: rgba(0, 0, 0, 0);
   }
+
   .grid-1 {
     display: flex;
     flex-wrap: wrap;
@@ -1195,6 +1235,7 @@ card {
   #card-prop1 {
     display: none;
   }
+
   #prop1 {
     background-color: #123c73;
     padding: 120px;
@@ -1238,14 +1279,17 @@ card {
   .carousel-inner {
     margin-top: 0 auto !important;
   }
+
   #inner1 {
     width: 350px;
     margin-top: 0 auto !important;
   }
+
   #inner {
     margin-top: 60px !important;
     height: auto;
   }
+
   #banner {
     margin-top: 75px;
     background-image: url("../images/BANNER\ SITE.jpg");
@@ -1299,6 +1343,7 @@ card {
     width: 280px;
     height: 140px;
   }
+
   #nav-container a {
     margin-left: 0 auto;
   }
@@ -1335,6 +1380,7 @@ card {
     height: 520.9px;
     margin: 0;
   }
+
   #button-form {
     margin-top: 30px;
     max-width: 100%;
@@ -1365,6 +1411,7 @@ card {
   .container {
     width: 100vw !important;
   }
+
   #rowMaster {
     display: flex;
     align-items: center;
@@ -1377,6 +1424,7 @@ card {
   h1 {
     font-size: 24px !important;
   }
+
   #rowMaster p {
     font-size: 16px !important;
     left: 0;
@@ -1400,6 +1448,7 @@ card {
     height: 210px !important;
     width: 190px !important;
   }
+
   .cont-flex {
     margin: 0 30px;
   }
@@ -1411,9 +1460,11 @@ card {
   width: 50vw !important;
   margin: 0 auto;
 }
+
 .center h2 {
   margin: 45px 0;
 }
+
 .cont-flex {
   width: 80vw;
   max-width: 1250px !important;
@@ -1423,10 +1474,12 @@ card {
   align-items: center;
   flex-wrap: wrap;
 }
+
 .flex-item {
   margin-right: 20px;
   flex: 1;
 }
+
 #row2 img {
   height: 290px;
 }
@@ -1436,6 +1489,7 @@ card {
     width: 100vw;
     padding: 0 !important;
   }
+
   #row1 {
     width: 100%;
     margin: 0 auto;
@@ -1449,13 +1503,16 @@ card {
     height: 120px !important;
     padding: 0px !important;
   }
+
   #row1 img {
     margin-top: 0;
     width: 50px;
   }
+
   #vision img {
     width: 70px !important;
   }
+
   #row1 h2 {
     align-items: center;
     font-size: 18px !important;
@@ -1465,6 +1522,7 @@ card {
   #colsobre {
     width: 100vw;
   }
+
   #colsobre img {
     max-width: 320px !important;
     height: 320px !important;
@@ -1507,6 +1565,7 @@ card {
   font-weight: bold;
   text-align: center;
 }
+
 .row2 img {
   height: 210px;
   width: 190px;
@@ -1566,6 +1625,7 @@ card {
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   }
 }
+
 .whatsapp-link {
   position: fixed;
   width: 80px;
@@ -1614,6 +1674,7 @@ card {
 
   color: #000000;
 }
+
 .footer-dark {
   width: 100vw !important;
   margin: 0 !important;
@@ -1629,6 +1690,7 @@ card {
   body {
     margin: 0;
   }
+
   /* Banner */
 
   #inner {
@@ -1732,15 +1794,53 @@ card {
     font-size: 20px !important;
     margin-left: 0px !important;
   }
+
   #img2 {
     width: 120px !important;
   }
+
   .container-cards {
     display: flex !important;
     margin: 0 !important;
   }
 }
 
+@media (max-width: 1200px) {
+  .grid-1 div {
+    width: 250px;
+    border-radius:  10px 10px 0 0;
+  }
+
+  .grid-2 div {
+    width: 250px;
+    border-radius:  10px 10px 0 0;
+  }
+
+  .slide-btn {
+    width: 250px;
+  }
+
+  .slide-btn2 {
+    width: 250px;
+  }
+}
+
 @media (max-width: 600px) {
-  .
+  .grid-1 div {
+    width: 250px;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .grid-2 div {
+    width: 250px;
+    border-radius:  10px 10px 0 0;
+  }
+
+  .slide-btn {
+    width: 250px;
+  }
+
+  .slide-btn2 {
+    width: 250px;
+  }
 }
