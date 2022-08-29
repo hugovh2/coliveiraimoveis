@@ -80,7 +80,7 @@ body {
 
 #banner {
   margin-top: 0 !important;
-  background-image: url("../images/BANNER\ SITE.jpg");
+  background-image: url("../images/capa-site.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -99,7 +99,7 @@ body {
 
 #banner3 {
   margin-top: 0 !important;
-  background-image: url("../images/BANNER\ SITE.jpg");
+  background-image: url("../images/capa-site.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -347,6 +347,22 @@ li {
   background-image: url(../images/imagem4-p3.jpeg);
   background-size: cover;
 }
+#carousel__slide1-p4 {
+  background-image: url(../images/imagem1-p4.jpeg);
+  background-size: cover;
+}
+#carousel__slide2-p4 {
+  background-image: url(../images/imagem2-p4.jpeg);
+  background-size: cover;
+}
+#carousel__slide3-p4 {
+  background-image: url(../images/imagem3-p4.jpeg);
+  background-size: cover;
+}
+#carousel__slide4-p4 {
+  background-image: url(../images/imagem4-p4.jpeg);
+  background-size: cover;
+}
 
 .carousel__snapper {
   position: absolute;
@@ -398,8 +414,8 @@ li {
 .carousel__navigation-button {
   margin-right: 10px;
   display: inline-block;
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1rem;
+  height: 1rem;
   background-color: #333;
   background-clip: content-box;
   border: 0.25rem solid transparent;
@@ -430,7 +446,7 @@ li {
   font-weight: bold;
   color: #fff;
   display: inline-block;
-  background-color: #f0b939;
+  background-color: #0697cc;
   margin-top: 25px;
   padding-top: 5px;
   width: 280px;
@@ -442,7 +458,7 @@ li {
   text-decoration: none;
   list-style: none;
   list-style-type: none;
-  color: #f0b939;
+  color: #0697cc;
   background: #fff;
 }
 .slide-btn2 {
@@ -470,45 +486,46 @@ li {
 }
 .col-bg {
   background-color: #e1ebf4;
-  padding-bottom: 680px;
+  padding-bottom: 650px;
 }
 .col-bg h3 {
   margin: 10px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
 }
 .col-bg h4 {
   margin: 10px;
-  font-size: 18px;
+  font-size: 16px;
 }
 .col-bg span {
   margin: 10px 10px 5px 10px;
+  font-size: 18px;
 }
 
 .col-bg p {
-  margin: 0 15px;
+  margin: 0 10px;
+}
+.material-symbols-outlined {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .titulo-card {
-  margin-top: 35px;
+  margin-top: 25px;
   text-align: center;
-}
-#flutuante {
-  font-family: "Nunito";
-  font-weight: 700;
-  color: #fff;
-  position: absolute;
-  top: 189%;
 }
 
 .linha {
   border-bottom: solid 4px;
-  border-color: #f0b939;
+  border-color: #0697cc;
   border-radius: 3px;
+  font-size: 16px !important;
 }
 .linha2 {
   border-bottom: solid 4px;
   border-color: #0697cc;
   border-radius: 3px;
+  font-size: 16px !important;
 }
 .card-body {
   position: relative;
@@ -565,25 +582,7 @@ li {
     text-align: center;
     color: #434346;
 } */
-.p4 {
-  width: 260px;
-  margin-left: 15px;
-  margin-top: 20px;
-}
-.p4 h1 {
-  font-size: 24px;
-  font-weight: bold;
-}
-.p4 h3 {
-  text-align: center;
-}
-.mrv {
-  margin-left: 15px;
-}
-.mrv img {
-  height: 120px;
-  width: 120px;
-}
+
 card {
   box-sizing: border-box;
   position: absolute;
@@ -1282,7 +1281,7 @@ card {
   }
   #banner {
     margin-top: 75px;
-    background-image: url("../images/BANNER\ SITE.jpg");
+    background-image: url("../images/capa-site.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 23vh;
@@ -1302,7 +1301,7 @@ card {
 
   #banner3 {
     margin-top: 75px;
-    background-image: url("../images/BANNER\ SITE.jpg");
+    background-image: url("../images/capa-site.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1691,7 +1690,7 @@ card {
 
   #banner3 {
     margin-top: 0;
-    background-image: url("../images/BANNER\ SITE.jpg");
+    background-image: url("../images/capa-site.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1701,7 +1700,7 @@ card {
 
   #banner4 {
     margin-top: 0;
-    background-image: url("../images/BANNER\ SITE.jpg");
+    background-image: url("../images/capa-site.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
