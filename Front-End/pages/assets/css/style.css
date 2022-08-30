@@ -447,7 +447,7 @@ li {
   color: #fff;
   display: inline-block;
   background-color: #0697cc;
-  margin-top: 25px;
+  margin-top: 40px;
   padding-top: 5px;
   width: 280px;
   text-align: center;
@@ -470,7 +470,7 @@ li {
   color: #fff;
   display: inline-block;
   background-color: #0697cc;
-  margin-top: 25px;
+  margin-top: 20px;
   padding-top: 5px;
   width: 280px;
   text-align: center;
@@ -484,9 +484,19 @@ li {
   color: #0697cc;
   background: #fff;
 }
+@media (max-width: 600px) {
+  .slide-btn {
+    width: 260px;
+    margin-bottom: 20px;
+  }
+  .slide-btn2 {
+    width: 260px;
+    margin-bottom: 20px !important;
+  }
+}
 .col-bg {
   background-color: #e1ebf4;
-  padding-bottom: 650px;
+  padding-bottom: 640px;
 }
 .col-bg h3 {
   margin: 10px;
@@ -1177,14 +1187,15 @@ card {
   }
   .grid-1 {
     display: flex;
+    position: relative;
     flex-wrap: wrap;
     margin-top: 25px;
     margin-bottom: 240px;
   }
 
   .grid-1 div {
-    width: 180px;
-    height: 180px;
+    width: 260px;
+    height: 170px;
   }
 
   .container-cards1 {
@@ -1681,7 +1692,7 @@ card {
 
   #banner2 {
     margin-top: 0;
-    background-image: url("../images/BANNER\ SITE.jpg");
+    background-image: url("../images/capa-site.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -1690,7 +1701,7 @@ card {
 
   #banner3 {
     margin-top: 0;
-    background-image: url("../images/capa-site.jpg");
+    background-image: url("../images/BANNER\ SITE.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
