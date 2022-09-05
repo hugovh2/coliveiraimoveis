@@ -245,8 +245,6 @@ h2 {
   background-image: url("https://images.unsplash.com/photo-1503174971373-b1f69850bded?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fGhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
 }
 
-<<<<<<< HEAD
-=======
 .carousel__navigation {
   position: absolute;
   right: 0;
@@ -387,7 +385,6 @@ h2 {
   border-radius: 3px;
   font-size: 16px !important;
 }
->>>>>>> 95e2a39b5e6176cdff1d2fda7f6ccc62e026009d
 .card-body {
   position: relative;
   margin-top: 200px;

@@ -1,0 +1,255 @@
+body {
+  overflow-x: hidden;
+}
+.mobile-menu {
+  display: none;
+  cursor: pointer;
+  background-color: #b49c73;
+  padding: 5px;
+  border-radius: 12px;
+  margin-right: 10px;
+}
+
+.mobile-menu div {
+  width: 32px;
+  height: 2px;
+  background: #fff;
+  margin: 8px;
+  transition: 0.3s;
+}
+
+/* Header*/
+@media (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+  .superinfo-items {
+    display: flex;
+    font-size: 12px;
+  }
+  .nav-list {
+    position: absolute;
+    top: 13.3vh;
+    right: 0;
+    width: 50vw;
+    height: 92vh;
+    background: #fff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    gap: 50px;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+    z-index: 9900;
+  }
+  .nav-list li {
+    margin-top: 30px;
+    margin-left: 0;
+    opacity: 0;
+  }
+  .mobile-menu {
+    display: block;
+  }
+}
+.nav-list.active {
+  transform: translateX(0);
+}
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.mobile-menu.active .line1 {
+  transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+  opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+  transform: rotate(45deg) translate(-5px, -7px);
+}
+
+/* Página Home*/
+@media (max-width: 600px){
+#exp{
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-size: 18px !important;
+  top: -110px;
+  left: auto !important;
+}
+.info h1{
+  width: 260px;
+  font-size: 1.5em;
+
+}
+}
+
+/* Página Sobre*/
+@media (max-width: 600px) {
+  /*Banner*/
+.section-banner {
+  height: 180px;
+}
+ 
+.section-quem{
+  flex-direction: column ;
+}
+.text{
+  flex:1;
+}
+.text h1{
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 26px;
+}
+.text p{
+  font-size: 16px;
+  margin: 0;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+.section-historia{
+  flex-direction: column-reverse;
+  margin: 0 20px;
+  
+}
+.historia_text h1{
+  font-size: 26px;
+}
+.historia_text p{
+  font-size: 16px;
+  margin: 0;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+.historia_img{
+  width: 380px;
+}
+
+/*Especialidades*/
+.section-especialidades h1 {
+  font-size: 1.5em;
+}
+.flex-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1500px;
+}
+.item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  box-sizing: border-box;
+  width: 120px;
+  height: 120px;
+  margin: 20px;
+  margin-top: 30px;
+  border: 2px solid #ffffff;
+  box-shadow: 6px 6px 4px 1px rgba(255, 255, 255, 0.25);
+}
+.item img {
+  margin: 0 auto;
+  width: 28px;
+  height: 28px;
+}
+.item h2 {
+  color: #fff;
+  margin: 10px;
+  font-size: 0.8em;
+}
+.especialidades-button {
+  color: #000000;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  width: 185px;
+  height: 50px;
+  background: #f9b15d;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+}
+.especialidades-button img {
+  margin-left: 15px;
+  width: 18px;
+  height: 18px;
+}
+/*Footer*/
+.footer-bg {
+  background-color: #37373f;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.container-footer div {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  color: #fff;
+}
+
+.footer-contato {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-contato h2 {
+  font-size: 1em;
+  display: block;
+  padding: 10px;
+}
+
+.footer-informacoes {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.footer-item {
+  width: 160px;
+}
+.footer-item p{
+  font-size: 12px;
+}
+
+.footer-informacoes div {
+  font-size: 0.75em;
+  display: block;
+  padding: 10px;
+}
+#social-item{
+  color: white;
+  font-size: 28px;
+  margin: 10px;
+}
+.social{
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  width: 180px;
+  margin: 0 !important;
+}
+}

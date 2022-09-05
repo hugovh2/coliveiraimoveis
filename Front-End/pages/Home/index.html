@@ -1,635 +1,128 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS -->
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <!-- ionicons -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" rel="stylesheet">
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Title -->
-    <title>C Oliveira Imóveis</title>
-    <link rel="shortcut icon" href="../assets/images/logoicon.ico" type="image/x-icon">
-
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <!-- ionicons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="../../../mobile/style.css">
+  <title>Home</title>
 </head>
-<!-- Navbar -->
 
-<!-- Responsivo-->
-
-<nav class="navbar navbar-dark navbar-expand-xsm bg-dark fixed-top" id="nav-mobile">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="../Home/index.html">
-            <img src="../assets/images/ComLogo-SemImoveis.svg" width="220" height="90">
-        </a>
-        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-            <div class="offcanvas-header">
-                <a href="../Home/index.html">
-                    <img src="../assets/images/ComLogo-SemImoveis.svg" class="logo-nav">
-                </a>
-                <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="../Home/index.html">Home<span class="sr-only">(Página
-                                atual)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../Sobre/index.html">A C Oliveira</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="../Servicos/index.html">Serviços</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../Contato/index.html">Contato</a>
-                    </li>
-                </ul>
-
-
-            </div>
-        </div>
+<body>
+  <header class="menu-bg">
+    <div class="superinfo-bg">
+      <div class="superinfo-items">
+        <p>Seg / Sex - 08:00 às 18:00</p>
+        <a href="tel:+556186184617"><span>Telefone: </span>(61)8618-4617</a>
+        <a href=""><span>E-mail: </span></a>
+      </div>
     </div>
-</nav>
-<!-- Fim Responsivo-->
-<div class="row" id="nav-container">
-    <nav class="navbar navbar-custom navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">
-            <img src="../assets/images/ComLogo-SemImoveis.svg" width="240" height="90" class="d-inline-block align-top" alt="">
-        </a>
-        <div class="collapse navbar-collapse justify-content-end" id="nav-layout">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="../Home/index.html">Home<span class="sr-only">(Página
-                                atual)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../Sobre/index.html">A C Oliveira</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../Servicos/index.html">Serviços</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../Contato/index.html">Contato</a>
-                    </li>
-                </ul>
-            </div>
+    <div class="menu">
+      <div class="logo">
+        <a href="">Logo</a>
+      </div>
+      <nav class="header-content">
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
         </div>
-    </nav>
-</div>
-
-<!-- Fim Navbar -->
-
-
-<!-- Banner -->
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-    </ol>
-    <div class="carousel-inner" id="inner">
-        <div class="carousel-item active" id="banner">
-            <!--       <img class="d-block w-100" src="..." alt="First slide">-->
-        </div>
-        <div class="carousel-item" id="banner2">
-            <!-- <img class="d-block w-100" src="..." alt="Second slide"> -->
-        </div>
-        <div class="carousel-item" id="banner3">
-            <!-- <img class="d-block w-100" src="..." alt="Third slide"> -->
-        </div>
-        <div class="carousel-item" id="banner4">
-            <!-- <img class="d-block w-100" src="..." alt="Third slide"> -->
-        </div>
+        <ul class="nav-list">
+          <li class="nav-item is-active">
+            <a href="../Home/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="../Sobre/index.html">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a href="../Contato/index.html">Contato</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
+  </header>
+  <main>
+    <section class="section-banner">
+
+    </section>
+    <section class="section-saiba">
+      <div class="section-img">
+        <img src="../../assets/img/homeImg/Rectangle 32.png">
+      </div>
+      <div class="info">
+        <h1 id="exp">6 anos de experiência</h1>
+        <h2>Saiba sobre nós</h2>
+        <h1>Fornecemos Serviços Jurídicos Confiáveis e Eficazes</h1>
+      </div>
+    </section>
+    <section class="section-conheca">
+      <h1>Conheça nosso advogado</h1>
+      <div class="conheca-bg">
+        <img src="../../assets/img/homeImg/Rectangle 28.png" alt="">
+      </div>
+    </section>
+    <section class="section-form"></section>
+    <section class="section-criticas"></section>
+    <!-- Whatsapp-->
+    <a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=556186184617&text=Olá" target="_blank">
+      <i class="icon ion-social-whatsapp" id="whatsapp"></i>
     </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
-<!-- Fim Banner -->
-<!-- Whatsapp-->
-<a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=5561996511007&text=Olá" target="_blank">
-    <i class="icon ion-social-whatsapp" id="whatsapp"></i>
-</a>
-<!--Card images-->
-<section class="grid-1">
-<<<<<<< HEAD
-    <div class="col1"></div>
-    <div class="col2"></div>
-    <div class="col3"></div>
-    <div class="col4"></div>
-=======
-    <div class="col-bg">
-        <!-- p1 -->
-        <section class="carousel1" aria-label="Gallery">
-            <ol class="carousel__viewport">
-                <li id="carousel__slide1-p1" tabindex="0" class="carousel__slide">
-                    <div class="carousel__snapper">
+    <footer class="footer-bg">
+      <div class="container-footer">
+        <div class="footer-contato">
 
-                    </div>
-                </li>
-                <li id="carousel__slide2-p1" tabindex="0" class="carousel__slide">
-                    <div class="carousel__snapper"></div>
+          <h2>Nosso escritório</h2>
 
-                </li>
-                <li id="carousel__slide3-p1" tabindex="0" class="carousel__slide">
-                    <div class="carousel__snapper"></div>
 
-                </li>
-                <li id="carousel__slide4-p1" tabindex="0" class="carousel__slide">
-                    <div class="carousel__snapper"></div>
-                </li>
-            </ol>
-            <aside class="carousel__navigation">
-                <ol class="carousel__navigation-list">
-                    <li class="carousel__navigation-item">
-                        <a href="#carousel__slide1-p1" class="carousel__navigation-button">Go to slide 1</a>
-                    </li>
-                    <li class="carousel__navigation-item">
-                        <a href="#carousel__slide2-p1" class="carousel__navigation-button">Go to slide 2</a>
-                    </li>
-                    <li class="carousel__navigation-item">
-                        <a href="#carousel__slide3-p1" class="carousel__navigation-button">Go to slide 3</a>
-                    </li>
-                    <li class="carousel__navigation-item">
-                        <a href="#carousel__slide4-p1" class="carousel__navigation-button">Go to slide 4</a>
-                    </li>
-                </ol>
-            </aside>
-        </section>
-        <div class="casas-info">
-            <h4>Ceilandia/DF</h4>
-            <h3>Torres do Campo</h3>
+          <h2>E-mail</h2>
 
-            <h4><span class="linha">Entrada</span>Facilitada</h4>
-            <p><span class="material-symbols-outlined">
-                    bed
-                </span>2 Quartos</p>
-            <p><span class="material-symbols-outlined">
-                    family_restroom
-                </span>Lazer equipado</p>
-            <p><span class="material-symbols-outlined">
-                    solar_power
-                </span>Energia Solar Áreas Comuns</p>
-            <p><span class="material-symbols-outlined">
-                    door_sliding
-                </span>Elevador</p>
-            <a class="slide-btn" href="https://api.whatsapp.com/send?phone=5561996511007&text=Olá" target="_blank">Saiba Mais</a>
+
+          <h2>Ligue pra nós</h2>
+
         </div>
-    </div>
-    <div class="col-bg">
-        <!-- p2 -->
-        <section class="carousel1" aria-label="Gallery">
-            <ol class="carousel__viewport">
-                <li id="carousel__slide1-p2" tabindex="0" class="carousel__slide">
-                    <div class="carousel__snapper">
-
-                    </div>
-                </li>
-                <li id="carousel__slide2-p2" tabindex="0" class="carousel__slide">
-                    <div class="carousel__snapper"></div>
-
-                </li>
-                <li id="carousel__slide3-p2" tabindex="0" class="carousel__slide">
-                    <div class="carousel__snapper"></div>
-
-                </li>
-                <li id="carousel__slide4-p2" tabindex="0" class="carousel__slide">
-                    <div class="carousel__snapper"></div>
-                </li>
-            </ol>
-            <aside class="carousel__navigation">
-                <ol class="carousel__navigation-list">
-                    <li class="carousel__navigation-item">
-                        <a href="#carousel__slide1-p2" class="carousel__navigation-button">Go to slide 1</a>
-                    </li>
-                    <li class="carousel__navigation-item">
-                        <a href="#carousel__slide2-p2" class="carousel__navigation-button">Go to slide 2</a>
-                    </li>
-                    <li class="carousel__navigation-item">
-                        <a href="#carousel__slide3-p2" class="carousel__navigation-button">Go to slide 3</a>
-                    </li>
-                    <li class="carousel__navigation-item">
-                        <a href="#carousel__slide4-p2" class="carousel__navigation-button">Go to slide 4</a>
-                    </li>
-                </ol>
-            </aside>
-        </section>
-        <div class="casas-info">
-            <h4>Samambaia/DF</h4>
-            <h3>Belo Viver</h3>
-
-            <h4><span class="linha2">Lazer</span>Equipado</h4>
-            <p><span class="material-symbols-outlined">
-                    bed
-                </span>2 Quartos</p>
-            <p><span class="material-symbols-outlined">
-                    family_restroom
-                </span>Lazer equipado</p>
-            <p><span class="material-symbols-outlined">
-                    solar_power
-                </span>Energia Solar Áreas Comuns</p>
-            <p><span class="material-symbols-outlined">
-                    door_sliding
-                </span>Elevador</p>
-
-
-            <a class="slide-btn" href="https://api.whatsapp.com/send?phone=5561996511007&text=Olá" target="_blank">Saiba Mais</a>
-        </div>
-    </div>
-    <div class="col-bg">
-        <!-- p3 -->
-
-        <section class="carousel1" aria-label="Gallery">
-            <ol class="carousel__viewport">
-                <li id="carousel__slide1-p3" tabindex="0" class="carousel__slide">
-                    <div class="carousel__snapper">
-
-                    </div>
-                </li>
-                <li id="carousel__slide2-p3" tabindex="0" class="carousel__slide">
-                    <div class="carousel__snapper"></div>
-
-                </li>
-                <li id="carousel__slide3-p3" tabindex="0" class="carousel__slide">
-                    <div class="carousel__snapper"></div>
-
-                </li>
-                <li id="carousel__slide4-p3" tabindex="0" class="carousel__slide">
-                    <div class="carousel__snapper"></div>
-                </li>
-            </ol>
-            <aside class="carousel__navigation">
-                <ol class="carousel__navigation-list">
-                    <li class="carousel__navigation-item">
-                        <a href="#carousel__slide1-p3" class="carousel__navigation-button">Go to slide 1</a>
-                    </li>
-                    <li class="carousel__navigation-item">
-                        <a href="#carousel__slide2-p3" class="carousel__navigation-button">Go to slide 2</a>
-                    </li>
-                    <li class="carousel__navigation-item">
-                        <a href="#carousel__slide3-p3" class="carousel__navigation-button">Go to slide 3</a>
-                    </li>
-                    <li class="carousel__navigation-item">
-                        <a href="#carousel__slide4-p3" class="carousel__navigation-button">Go to slide 4</a>
-                    </li>
-                </ol>
-            </aside>
-
-        </section>
-        <div class="casas-info">
-            <h4>Valparaíso/GO</h4>
-            <h3>Belle giardino</h3>
-            <h4><span class="linha2">entrada</span>facilitada</h4>
-            <p><span class="material-symbols-outlined">
-                    bed
-                </span>2 Quartos</p>
-            <p><span class="material-symbols-outlined">
-                    family_restroom
-                </span>Lazer equipado</p>
-            <p><span class="material-symbols-outlined">
-                    solar_power
-                </span>Energia Solar Áreas Comuns</p>
-            <p><span class="material-symbols-outlined">
-                    door_sliding
-                </span>Elevador</p>
-
-            <a class="slide-btn" href="https://api.whatsapp.com/send?phone=5561996511007&text=Olá" target="_blank">Saiba Mais</a>
-        </div>
-    </div>
-    <div class="col-bg">
-
-        <!-- p4 -->
-        <section class="carousel1" aria-label="Gallery">
-            <ol class="carousel__viewport">
-                <li id="carousel__slide1-p4" tabindex="0" class="carousel__slide">
-                    <div class="carousel__snapper">
-
-                    </div>
-                </li>
-                <li id="carousel__slide2-p4" tabindex="0" class="carousel__slide">
-                    <div class="carousel__snapper"></div>
-                </li>
-                <li id="carousel__slide3-p4" tabindex="0" class="carousel__slide">
-                    <div class="carousel__snapper"></div>
-                </li>
-                <li id="carousel__slide4-p4" tabindex="0" class="carousel__slide">
-                    <div class="carousel__snapper"></div>
-                </li>
-            </ol>
-            <aside class="carousel__navigation">
-                <ol class="carousel__navigation-list">
-                    <li class="carousel__navigation-item">
-                        <a href="#carousel__slide1-p4" class="carousel__navigation-button">Go to slide 1</a>
-                    </li>
-                    <li class="carousel__navigation-item">
-                        <a href="#carousel__slide2-p4" class="carousel__navigation-button">Go to slide 2</a>
-                    </li>
-                    <li class="carousel__navigation-item">
-                        <a href="#carousel__slide3-p4" class="carousel__navigation-button">Go to slide 3</a>
-                    </li>
-                    <li class="carousel__navigation-item">
-                        <a href="#carousel__slide4-p4" class="carousel__navigation-button">Go to slide 4</a>
-                    </li>
-                </ol>
-            </aside>
-        </section>
-        <div class="casas-info">
-            <h4>Lago norte/DF</h4>
-            <h3>Lar residencial & SPA urbano</h3>
-
-            <h4><span class="linha2">Cobertura</span>linear</h4>
-            <p><span class="material-symbols-outlined">
-                    bed
-                </span>3 Suítes</p>
-            <p><span class="material-symbols-outlined">
-                    family_restroom
-                </span>Lazer equipado</p>
-            <p><span class="material-symbols-outlined">
-                    solar_power
-                </span>Piscina climatizada</p>
-            <p><span class="material-symbols-outlined">
-                    door_sliding
-                </span>Elevador com automação</p>
-
-            <a class="slide-btn2" href="https://api.whatsapp.com/send?phone=5561996511007&text=Olá" target="_blank">Saiba Mais</a>
-        </div>
-    </div>
-    </div>
->>>>>>> 95e2a39b5e6176cdff1d2fda7f6ccc62e026009d
-</section>
-
-<!-- Nossa Proposta -->
-<div class="proposta">
-
-    <!-- Responsivo -->
-    <div id="carouselmobile" class="carousel slide" data-ride="carousel">
-        <h1>Nossa Proposta</h1>
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-        </ol>
-        <div class="carousel-inner" id="inner1">
-            <div class="carousel-item active" id="active">
-                <div class="col container-card-test1">
-                    <div class="container-cards1">
-                        <div id="card-container-imagem1"><img src="../assets/images/clipboard.svg" class="img_fluid" id="img2">
-                        </div>
-                        <div id="card-container-nome1">
-                            <h2>Compromisso com o cliente</h2>
-                        </div>
-                    </div>
-                </div>
+        <div class="footer-informacoes">
+          <div class="footer-item">
+            <h3>Sobre nós</h3>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+          </div>
+          <div class="footer-item">
+            <h3>Localização</h3>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+          </div>
+          <div class="footer-item">
+            <h3>Fale Conosco</h3>
+            <p>(61)99651-1007</p>
+            <p>alffljaldjsaldj@gmail.com</p>
+            <div class="social">
+              <a class="instagram-link" href="#" target="_blank">
+                <i class="icon ion-social-instagram" id="social-item"></i>
+              </a>
+              <a class="instagram-link" href="#" target="_blank">
+                <i class="icon ion-social-facebook" id="social-item"></i>
+              </a>
+              <a class="instagram-link" href="#" target="_blank">
+                <i class="icon ion-social-linkedin" id="social-item"></i>
+              </a>
             </div>
-            <div class="carousel-item" id="itemcarousel">
-                <div class="col container-card-test1">
-                    <div class="container-cards1">
-                        <div id="card-container-imagem1"><img src="../assets/images/lampada-de-ideia.svg" class="img_fluid" id="img2"></div>
-                        <div id="card-container-nome1">
-                            <h2>Idéias inovadoras para a acomodação e satisfação do cliente</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item" id="itemcarousel">
-                <div class="col container-card-test1">
-                    <div class="container-cards1">
-                        <div id="card-container-imagem1"><img src="../assets/images/bolsa-de-dinheiro.svg" class="img_fluid" id="img2"></div>
-                        <div id="card-container-nome1">
-                            <h2>Preço que cabe no bolso</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
-    <!-- Fim Responsivo -->
-    <div class="row" id="card-prop">
-        <div class="col container-card-test" id="teste">
-            <div class="container-cards">
-                <div id="card-container-imagem"><img src="../assets/images/clipboard.svg" class="img_fluid" id="img2">
-                </div>
-                <div id="card-container-nome">
-                    <h2>Compromisso com o cliente</h2>
-                </div>
-            </div>
-        </div>
-        <div class="col container-card-test">
-            <div class="container-cards">
-                <div id="card-container-imagem"><img src="../assets/images/lampada-de-ideia.svg" class="img_fluid" id="img2"></div>
-                <div id="card-container-nome">
-                    <h2>Idéias inovadoras para a acomodação e satisfação do cliente</h2>
-                </div>
-            </div>
-        </div>
-        <div class="col container-card-test">
-            <div class="container-cards">
-                <div id="card-container-imagem"><img src="../assets/images/bolsa-de-dinheiro.svg" class="img_fluid" id="img2"></div>
-                <div id="card-container-nome">
-                    <h2>Preço que cabe no bolso</h2>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row" id="prop1">
-    </div>
-    <div class="row" id="prop2">
-    </div>
-</div>
-
-<div class="container" id="rowMaster">
-    <div class="row">
-        <h1 class="text-center">O que Fazemos?</h1>
-        <div class="col-6">
-            <p>Somos uma empresa inovadora que oferece diversas opções de imóveis visando sempre atender a necessidade
-                do
-                cliente e inspirar paixão e principalmente satisfação para todos.</p>
-        </div>
-        <div class="col">
-            <img src="../assets/images/sobre.svg" width="600" height="450" id="duvida">
-        </div>
-    </div>
-</div>
-
-<div class='row' id="fundoAzul1">
-    <h1 class="text-center" id="pfundo">Nosso Contato</h1>
-
-</div>
-
-<!-- incio card Formulario -->
-<div class='row' id="fundoForm">
-    <div class='col-md-7'>
-        <div class="registration-form">
-            <form>
-                <div class="form-icon">
-                    <span><i class="icon icon-user"></i></span>
-                </div>
-                <h3 class="text-center">Envie uma mensagem para nós</h3>
-                <p>Preencha as informações básicas abaixo para que possamos entrar em contato com a melhor
-                    solução para o seu sonho!
-                </p>
-                <div class="form-group">
-                    <input type="text" class="form-control item" id="username" placeholder="Usuario">
-                </div>
-                <div class="form-group">
-                    <input type="text" class="form-control item" id="email" placeholder="Email">
-                </div>
-                <div class="form-group">
-                    <input type="text" class="form-control item" id="phone-number" placeholder="Telefone">
-                </div>
-                <div class="form-group">
-                    <button type="button" class="btn btn-block create-account" id="button-form">Enviar</button>
-                </div>
-            </form>
-        </div>
-    </div>
-    <div class='col-md-3'>
-        <div class="registration-form">
-            <form>
-                <div class="form-icon">
-                    <span><i class="icon icon-compass"></i></span>
-                </div>
-                <h1 class="text-center">Visite-nos</h1>
-                <div class="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15339.616150676631!2d-48.0656846!3d-16.0185102!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x340a250cf9255811!2sEdif%C3%ADcio%20Central!5e0!3m2!1spt-BR!2sbr!4v1657755802921!5m2!1spt-BR!2sbr" width="359" height="344.14" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    <b>Endereço:</b>
-                    <p>Edifício central sala 112 setor central do Gama</p>
-                    <b>Telefone:</b>
-                    <p>(61) 99651-1007</p>
-                    <b>Email:</b>
-                    <p>coliveiraimobiliaria@gmail.com</p>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
-<!-- Fim card Formulario -->
-<!-- Fim card Formulario -->
-
-
-<div class='row' id="fundoAzul">
-    <div class="container" id="AzulPes">
-        <div class="row justify-content-between" id="row-home">
-            <div class="col container-card-test">
-                <img src="../assets/images/quote.svg" alt="aspas" class="card-aspas">
-                <div class="container-cards">
-                    <div id="card-container-imagem"><img src="../assets/images/Gabriel.svg" class="img_fluid" id="img2">
-                    </div>
-                    <div id="card-container-nome">
-                        <h2>Felipe Scobert</h2>
-                    </div>
-                </div>
-
-                <p>O corretor que me atendeu fez um bom trabalho e conseguiu atender às minhas expectativas! Fiquei
-                    muito satisfeito com a aquisição da minha casa!
-                </p>
-            </div>
-            <div class="col container-card-test">
-                <img src="../assets/images/quote.svg" alt="aspas" class="card-aspas">
-                <div class="container-cards">
-                    <div id="card-container-imagem"><img src="../assets/images/Felipe.svg" class="img_fluid" id="img2">
-                    </div>
-                    <div id="card-container-nome">
-                        <h2>Andre Santado</h2>
-                    </div>
-                </div>
-                <p>Muito bom no atendimento,um corretor que está ali pra ajudar no seu sonho, super indico ele é um
-                    ótimo profissional.
-
-            </div>
-            <div class="col container-card-test">
-                <img src="../assets/images/quote.svg" alt="aspas" class="card-aspas">
-                <div class="container-cards">
-                    <div id="card-container-imagem"><img src="../assets/images/Leticia.svg" class="img_fluid" id="img2">
-                    </div>
-                    <div id="card-container-nome">
-                        <h2>Vitinha Muller</h2>
-                    </div>
-                </div>
-                <p>Imobiliária de confiança e honesta. Trabalho com transparência. Recomendo.
-                </p>
-            </div>
-
-        </div>
-    </div>
-</div>
-</p>
-
-
-
-
-<!--Footer-->
-<div class="footer-dark ">
-    <footer>
-        <div class="container ">
-            <div class="row" id="footer-items">
-                <div class="col-sm-6 col-md-3 item">
-                    <ul>
-                        <li>
-                            <a class="align-top" href="#">
-                                <img src="../assets/images/ComLogo-SemImoveis-Branca.svg" width="160" height="190" class="d-inline-block align-top" alt="">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-sm-6 col-md-3 item">
-                    <h3>Localização</h3>
-                    <ul>
-                        <p>Edifício central sala 112 setor central do Gama</p>
-                    </ul>
-                </div>
-                <div class="col-md-6 item text">
-                    <h3>Sobre nós</h3>
-                    <p>A empresa C Oliveira Imoveis que tem como razão social C Oliveira Empreendimentos Imobiliarios
-                        Ltda foi fundada em 03/01/2018 e está cadastrada na Solutudo no segmento de Imobiliárias</p>
-                </div>
-                <div class="col item social"><a href="https://www.facebook.com/coliveiraimob/"><i class="icon ion-social-facebook"></i></a><a href=""><i class="icon ion-social-linkedin"></i></a><a href="https://www.instagram.com/coliveiraimob/"><i class="icon ion-social-instagram"></i></a></div>
-                <p class="copyright">C OLIVEIRA empreendimentos imobiliários Ltda © 2022</p>
-            </div>
+      </div>
     </footer>
-    <!-- JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <!-- fim JavaScript -->
-    <script xasync defer src="https://maps.googleapis.com/maps/api/js?key=SUA_CHAVE_API_DO_GOOGLE&callback=inicializar">
-    </script>
-    </body>
+  </main>
+  <script src="../../../mobile/mobile-navbar.js"></script>
+</body>
 
 </html>
