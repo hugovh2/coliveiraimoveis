@@ -363,6 +363,38 @@ li {
   background-image: url(../images/imagem4-p4.jpeg);
   background-size: cover;
 }
+#carousel__slide1-p3 {
+  background-image: url(../images/imagem1-p3.jpeg);
+  background-size: cover;
+}
+#carousel__slide2-p3 {
+  background-image: url(../images/imagem2-p3.jpeg);
+  background-size: cover;
+}
+#carousel__slide3-p3 {
+  background-image: url(../images/imagem3-p3.jpeg);
+  background-size: cover;
+}
+#carousel__slide4-p3 {
+  background-image: url(../images/imagem4-p3.jpeg);
+  background-size: cover;
+}
+#carousel__slide1-p4 {
+  background-image: url(../images/imagem1-p4.jpeg);
+  background-size: cover;
+}
+#carousel__slide2-p4 {
+  background-image: url(../images/imagem2-p4.jpeg);
+  background-size: cover;
+}
+#carousel__slide3-p4 {
+  background-image: url(../images/imagem3-p4.jpeg);
+  background-size: cover;
+}
+#carousel__slide4-p4 {
+  background-image: url(../images/imagem4-p4.jpeg);
+  background-size: cover;
+}
 
 .carousel__snapper {
   position: absolute;
